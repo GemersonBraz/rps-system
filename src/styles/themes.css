@@ -1,0 +1,105 @@
+/* 
+  SISTEMA DE TEMAS - RPG "HONRA E SOMBRA"
+  ---------------------------------------
+  Aqui definimos as variáveis de cor para cada facção/tema.
+*/
+
+/* TEMA PADRÃO: HONRA (Luz/Dourado) */
+:root,
+[data-theme="honra"] {
+    /* Cores de Fundo */
+    --bg-primary: #fafaf9;
+    /* Stone 50 */
+    --bg-secondary: #e7e5e4;
+    /* Stone 200 */
+    --bg-card: #ffffff;
+
+    /* Cores de Texto */
+    --text-primary: #1c1917;
+    /* Stone 900 */
+    --text-secondary: #57534e;
+    /* Stone 600 */
+
+    /* Cores de Ação (Brand) */
+    --color-brand: #d97706;
+    /* Amber 600 (Dourado de combate) */
+    --color-brand-hover: #b45309;
+    /* Amber 700 */
+
+    /* Bordas */
+    --border-color: #d6d3d1;
+    /* Stone 300 */
+
+    /* Status (Mantendo o padrão do sistema mas suavizado) */
+    --status-success: #15803d;
+    --status-error: #b91c1c;
+}
+
+/* TEMA: SOMBRA (Escuro/Azul Petróleo) */
+[data-theme="sombra"] {
+    /* Cores de Fundo - Azul Petróleo Profundo */
+    --bg-primary: #020617;
+    /* Slate 950 (Quase preto azulado) */
+    --bg-secondary: #0f172a;
+    /* Slate 900 */
+    --bg-card: #1e293b;
+    /* Slate 800 */
+
+    /* Cores de Texto */
+    --text-primary: #f8fafc;
+    /* Slate 50 */
+    --text-secondary: #94a3b8;
+    /* Slate 400 */
+
+    /* Cores de Ação (Brand) */
+    --color-brand: #2dd4bf;
+    /* Teal 400 (Ciano místico/Sombrio) */
+    --color-brand-hover: #14b8a6;
+    /* Teal 500 */
+
+    /* Bordas */
+    --border-color: #334155;
+    /* Slate 700 */
+
+    /* Status */
+    --status-success: #4ade80;
+    --status-error: #f87171;
+}
+
+
+
+/* TEMA: CAOS (Vermelho/Guerra) */
+[data-theme="caos"] {
+    /* Cores de Fundo - Vermelho Profundo/Sanguíneo */
+    --bg-primary: #2b0a0a;
+    /* Fundo principal bem escuro */
+    --bg-secondary: #450a0a;
+    --bg-card: #7f1d1d;
+    /* Cards vermelho escuro */
+
+    /* Cores de Texto */
+    --text-primary: #fef2f2;
+    --text-secondary: #fca5a5;
+
+    /* Cores de Ação */
+    --color-brand: #ef4444;
+    /* Vermelho vivo */
+    --color-brand-hover: #dc2626;
+
+    /* Bordas */
+    --border-color: #991b1b;
+
+    /* Status */
+    --status-success: #10b981;
+    --status-error: #fca5a5;
+}
+
+/* Utilitários para uso no Tailwind */
+@theme {
+    --color-skin-base: var(--bg-primary);
+    --color-skin-card: var(--bg-card);
+    --color-skin-text: var(--text-primary);
+    --color-skin-muted: var(--text-secondary);
+    --color-skin-brand: var(--color-brand);
+    --color-skin-border: var(--border-color);
+}
