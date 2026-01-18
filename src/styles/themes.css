@@ -94,6 +94,37 @@
     --status-error: #fca5a5;
 }
 
+/* TEMA: ARCANO (Azul/Magia) */
+[data-theme="arcano"] {
+    /* Cores de Fundo - Azul Místico */
+    --bg-primary: #0b1121;
+    /* Um azul quase preto */
+    --bg-secondary: #172554;
+    /* Blue 950 */
+    --bg-card: #1e3a8a;
+    /* Blue 900 */
+
+    /* Cores de Texto */
+    --text-primary: #eff6ff;
+    /* Blue 50 */
+    --text-secondary: #bfdbfe;
+    /* Blue 200 */
+
+    /* Cores de Ação */
+    --color-brand: #60a5fa;
+    /* Blue 400 (Brilhante) */
+    --color-brand-hover: #3b82f6;
+    /* Blue 500 */
+
+    /* Bordas */
+    --border-color: #2563eb;
+    /* Blue 600 */
+
+    /* Status */
+    --status-success: #34d399;
+    --status-error: #f87171;
+}
+
 /* Utilitários para uso no Tailwind */
 @theme {
     --color-skin-base: var(--bg-primary);

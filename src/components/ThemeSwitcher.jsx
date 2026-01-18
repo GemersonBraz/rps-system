@@ -6,6 +6,7 @@ const THEMES = [
     { key: 'honra', label: 'Honra', icon: ICONS.DEFENSE, color: 'text-amber-600' },
     { key: 'sombra', label: 'Sombra', icon: ICONS.ATTACK, color: 'text-teal-400' },
     { key: 'caos', label: 'Caos', icon: ICONS.SKULL, color: 'text-red-500' },
+    { key: 'arcano', label: 'Arcano', icon: ICONS.MAGIC, color: 'text-blue-400' },
 ];
 
 export default function ThemeSwitcher() {
