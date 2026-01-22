@@ -1,5 +1,5 @@
-import { authToasts, rpgToasts, systemToasts, showToast } from '../utils/toasts';
-import { ICONS } from '../utils/icons';
+import { authToasts, rpgToasts, systemToasts, showToast } from '../../utils/toasts';
+import { ICONS } from '../../utils/icons';
 
 export default function ToastDemo() {
     return (
@@ -91,6 +91,49 @@ export default function ToastDemo() {
                         >
                             Lento (8s)
                         </button>
+                    </div>
+                </section>
+
+                {/* Icons Gallery */}
+                <section className="bg-[var(--bg-card)] p-8 rounded-2xl border border-[var(--border-color)] shadow-xl mt-8">
+                    <div className="flex items-center justify-between mb-8 border-b border-[var(--border-color)] pb-4">
+                        <h2 className="text-3xl font-bold flex items-center gap-3 text-[var(--color-brand)]">
+                            <ICONS.MAGIC className="text-4xl" />
+                            Biblioteca de Artefatos (Ícones)
+                        </h2>
+                        <span className="px-4 py-1 bg-[var(--bg-secondary)] rounded-full text-xs font-mono text-[var(--text-secondary)]">
+                            {Object.keys(ICONS).length} Ícones Registrados
+                        </span>
+                    </div>
+
+                    <p className="text-[var(--text-secondary)] mb-8 text-lg">
+                        Estes são os ícones padronizados para uso em todo o sistema, garantindo consistência visual em Dashboards e Cards.
+                    </p>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                        {Object.entries(ICONS).sort(([a], [b]) => a.localeCompare(b)).map(([name, Icon]) => (
+                            <div key={name} className="flex flex-col items-center p-5 bg-[var(--bg-primary)] border border-[var(--border-color)] rounded-xl hover:border-[var(--color-brand)] hover:scale-105 transition-all cursor-pointer group hover:shadow-lg hover:shadow-[var(--color-brand)]/10">
+                                <div className="p-3 rounded-full bg-[var(--bg-secondary)] group-hover:bg-[var(--color-brand)]/10 mb-3 transition-colors">
+                                    {Icon ? (
+                                        <Icon className="text-3xl text-[var(--text-primary)] group-hover:text-[var(--color-brand)]" />
+                                    ) : (
+                                        <span className="text-2xl">❌</span>
+                                    )}
+                                </div>
+                                <span className="text-[10px] font-bold tracking-tighter uppercase text-[var(--text-secondary)] group-hover:text-[var(--color-brand)] text-center transition-colors">
+                                    {name.replace(/_/g, ' ')}
+                                </span>
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className="mt-12 p-6 bg-[var(--bg-secondary)] rounded-xl border-l-4 border-[var(--color-brand)]">
+                        <h4 className="font-bold text-[var(--text-primary)] mb-2 flex items-center gap-2">
+                            <ICONS.SETTINGS /> Como usar no código:
+                        </h4>
+                        <code className="block bg-black/30 p-4 rounded text-sm text-[var(--color-brand)] overflow-x-auto">
+                            {`import { ICONS } from '../../utils/icons';\n\n// Exemplo:\n<ICONS.SWORDS className="text-xl" />`}
+                        </code>
                     </div>
                 </section>
             </div>

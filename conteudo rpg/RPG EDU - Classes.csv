@@ -1,0 +1,2814 @@
+,,,,,
+Classes,,,,,
+Ninjas,"São misteriosos e furtivos, unindo agilidade e precisão, o que os torna preparados para diversas atividades, excelentes para espionagem e combate. Recentemente, tem havido um grande número crescente de ninjas, apesar de, anos atrás, terem quase desaparecido. Acredita-se que a base dos ninjas fica nas montanhas, mas não se sabe ao certo. Pessoas já viram ninjas fazer coisas incríveis, como desaparecer de uma hora para outra e correr pelas paredes.",,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+samurai,"Possuem um grande senso de justiça e lealdade, sendo os mais habilidosos com a espada, como se fosse uma extensão do próprio corpo. Historicamente, nunca foram numerosos. A tradição samurai parece derivar de uma única família desconhecida, cujo paradeiro atual é um mistério. Diz-se que a tradição samurai remonta a muitos anos atrás e tem origens nos cavaleiros de outra classe. Aqueles que os viram dizem que são os mais rápidos de todos.",,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Guerreiros,"São nobres almas, geralmente provenientes de famílias humildes, e são os mais corajosos e valentes. Possuem grande força muscular, sendo os mais fortes entre os lutadores, elevando seus corpos ao limite através de treinamentos intensos. Além disso, dominam técnicas de luta desconhecidas. Muitos lutadores temem enfrentar guerreiros, pois são os únicos capazes de lutar de igual para igual, mesmo desarmados.",,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Guardião,"Uma classe derivada do conhecimento de cavaleiros e magos. São manipuladores de magia, porém não com tanta eficiência como os magos. São ótimos lutadores; os guardiões possuem controle de certas magias especiais, às quais os magos não têm acesso.",,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Mago,"Talvez seja a classe mais poderosa de lutadores, porém o desenvolvimento crescente de guardiães e monges, com suas magias especiais, tem diminuído o poder dos magos mais eficientes. São altamente inteligentes e possuem magias extremamente poderosas, superiores às de outras classes. No entanto, o número de magos tem diminuído gradualmente. No passado, existiam muitos magos de clãs familiares, mas hoje quase todos desapareceram por eventos desconhecidos.",,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Monge/Sacerdotisa,"Duas classes dominadoras de magias especiais, possuem um alto senso de humanidade, honestidade e espiritualidade. Suas magias são limitadas, porém abordam campos que os guardiões e magos não alcançam. Sempre estiveram em pouquíssimo número e, dos que se ouve falar, possuem paradeiro desconhecido.",,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Caçador,"Mestres na busca e destruição, extremamente hábeis com diversos tipos de armas. Possuem conhecimento vasto devido a serem viajantes por natureza, além de serem os mais destemidos. São os movimentadores dos mercados por serem capazes de encontrar artefatos místicos.",,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Cavaleiro,"São os mais honrados de todos os lutadores, muitos são nobres e geralmente vêm da nobreza. São excelentes lutadores na arte de lutar com duas espadas ou até espada e escudo, possuem um vigor físico grande, por isso usam armaduras poderosas. Dizem que dos ramos da linhagem dos cavaleiros surgiram os samurais e guardiões.",,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Assassino,"Onde está a linha entre o bem e o mal? Entre um amigo e um inimigo? Não se sabe ao certo. Todas as classes possuem diferenças, assim como semelhanças, e quando alguém se torna um assassino, rompendo qualquer tipo de ética e moral, pessoal ou não, sabe-se que ninguém confia nele e ele não confia em ninguém. Um assassino sempre é mal visto onde quer que vá, porém sempre há aqueles que acreditam que é um mal necessário. Afinal, quem mais eliminaria alguém inconveniente? Assassinos são extremamente espertos, possuem uma alta percepção e velocidade. Sua experiência na luta e na vida, é claro, lhes permite ter sempre uma vantagem sobre os outros lutadores. Aqueles que já estiveram em contato com um assassino dizem que eles sempre falam: ""assassino não morre, assassino mata"".",,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,Humano Comum,,,,
+,Arma,ATK/COM,DEF,Valor,Curso
+,Faca*,12,1,8,
+,Facão*,3,2,12,
+,Adaga*,4,2,12,
+,Adaga Dupla,5,2,20,duas armas *
+,Espada de Madeira,3,3,20,armas leves **
+,Bastão de Madeira,3,3,23,arma pesada ***
+,Machadinha,4,1,25,arma pesada **
+,,,,,
+,Equipamentos,capacidade,OBS,Valor,
+,Mochila Simples,10 coisas,,30,
+,Mochila Media,20 coisas,,40,
+,Mochila grande,40 coisas,,60,
+,Cantil simples,2 l,"""+"" 5 hp",15,
+,Cantil Regular,6 l,"""+"" 10 hp",35,
+,Cantil Profissional,15l,"""+"" 15 hp",55,
+,Pá,,para cavar,15,
+,Madeira de construção,ocupa 5 espaços,para construir ou para lenha,50,
+,Martelo,,ajuda a construir,20,
+,Pregos,caixa,ajuda a construir,5,
+,Comida,"""+"" 15 HP",estraga em 5 dias,30,
+,Água,"""+"" hp",,"10, 15 ou 20 depende do cantil",
+,Roupas,,para vestir,20,
+,Fósforo,,para fazer fogo,5,
+,Cruscifixo,,para religiosos,5,
+,Preservativos,,evita gravidez e doença,6,
+,Medicamentos,,recupera 3 de hp,50,
+,,,,,
+,,,,,
+,ninja,,,,
+,Arma,ATK/COM,DEF,Valor,Curso
+,Espada de treino,2,2,13,**
+,Espada de madeira,3,2,20,**
+,katana,5,4,40,arma leve **
+,katana dupla,8,6,65,duas armas **
+,sabre,4,5,40,arma leve **
+,espada curta,4,3,35,arma leve **
+,espada curta dupla,6,4,55,duas armas **
+,espada ninja,7,5,85,arma leve **
+,espada shinobi,10,8,100,arma pesada ***
+,bastao de metal,6,6,60,arma pesada ***
+,tridente duplo,9,5,80,arma pesada ***
+,sai,4,2,40,*
+,sai duplo,6,3,60,duas armas *
+,foice curta,5,3,50,arma leve *
+,foice curta com corrente,7,4,60,armas especiais ***
+,braceletes de metal,0,3,10,
+,mascara de metal,0,3,10,
+,armadura basica,0,5,65,
+,roupa de couro especial,0,3,45,
+,armadura especial ninja,0,7,100,
+,armadura shinobi,-1,9,120,
+,,,,,
+,Equipamentos,Detalhes,OBS,Valor,
+,Shurikens,20; +2 atk,,20,
+,Kunais,20; +3 atk,,22,
+,Afiador,amolar armas,,15,
+,Granada Explosiva,"""-15 hp inim/""",,40,
+,Granada de flash,"""-18 atk inim/+5 atk""",,50,
+,Granada de fumaça,"""-9 atk inim/ -4 hp inim""",,30,
+,Bainha da Espada,,,20,
+,Roupas ninja preta,,,15,
+,Roupas ninja branca,,,15,
+,Kimono simples,,,13,
+,Kimono de couro,,,25,
+,Acessorios,para guardar as armas,,10,
+,Cordas,,,8,
+,Correntes,,,12,
+,Botas,,,10,
+,Luvas,,,7,
+,Mascaras,,,7,
+,Ataduras,recupera +20 hp,,50,
+,Shinobi kumade,corda com ganchos para escalar,,25,
+,Fukumi bari,dardo envenenados/inimi sofre -5atk,,40,
+,,,,,
+,samurai,,,,
+,Arma,ATK/COM,DEF,Valor,Curso
+,Sakabatou,6,7,80,arma leve **
+,Taichi,7,4,80,arma leve **
+,Uchigatana,7,6,80,arma leve **
+,Katana,5,4,40,arma leve **
+,Katana dupla,8,6,65,duas armas **
+,Sabre,4,5,40,arma leve **
+,Zulfigar,6,5,60,arma leve **
+,Espada simples,3,3,30,arma leve **
+,Espada de madeira,3,2,20,**
+,Espada de treino,2,2,13,**
+,Honjo masamune,9,8,100,arma pesada **
+,Claymore,10,8,85,arma pesada **
+,Espada longa,7,5,85,arma pesada **
+,Espada curta,4,3,35,arma leve **
+,Espada larga,7,5,85,arma pesada **
+,Wakizashi,5,4,50,arma leve **
+,kodashi,3,5,50,arma leve *
+,kodashi dupla,6,8,70,duas armas *
+,Espada musashi,11,6,100,arma pesada **
+,roupa de couro especial,0,3,45,
+,Armadura basica,0,5,65,
+,Mascara,0,2,10,
+,Armadura especial,0,6,100,
+,Armadura musashi,0,8,120,
+,,,,,
+,,,,,
+,Equipamentos,Detalhes,OBS,Valor,
+,Bainha da espada,,,20,
+,Afiador,amolar armas,,15,
+,Chapeu,"""+ honra""",,7,
+,Capas,"""+ respeito""",,5,
+,Kimono simples,,,13,
+,Kimono de couro,,,25,
+,Cinto para espada,,,15,
+,Faixa para testa,"""+"" honra e respeito",,5,
+,Faixa para cintura,"""+"" reconhecimento",,5,
+,Sandália,,,5,
+,Botas,,,10,
+,Ataduras,recupera + 20 HP,,50,
+,Tônico de velocidade,"""+"" 10 ATK/""+""5 DEF até o fim",,95,
+,Tônico de saude,cura penalidade por poções,,160,
+,,,,,
+,,,,,
+,Guerreiro,,,,
+,Arma,ATK/COM,DEF,Valor,Curso
+,Espada larga,7,5,85,arma pesada **
+,Espada longa,7,5,85,arma pesada **
+,Alabarda - Naginata,7,6,90,arma pesada ***
+,Tonfa,2,7,65,*
+,Facão Espada,6,4,60,arma leve **
+,Sabre,4,5,40,arma leve **
+,Cimitarra,6,5,5,arma leve **
+,Espada de duas mãos,8,7,95,arma pesada **
+,Espada bastarda,10,7,110,arma pesada **
+,Zambatou,13,3,130,arma pesada ***
+,Porrete,4,3,45,**
+,Porrete maça,5,3,50,arma pesada **
+,Escudo simples,0,4,50,escudos
+,Escudo melhorado,0,6,55,escudos
+,Armadura simples,0,6,55,
+,Proteção de peito,0,5,45,
+,Braceletes e caneleiras,0,4,45,
+,Capacete,0,3,30,
+,Machado de dois fios,8,4,100,arma pesada **
+,Armadura completa,-2,11,115,
+,Escudo de guerra,0,9,110,escudos
+,Luva de combate,3,1,30,
+,,,,,
+,,,,,
+,Equipamentos,Detalhes,OBS,Valor,
+,Roupas de tecido,,,5,
+,Roupas de malha,,,10,
+,Roupas de couro,,,15,
+,Medicamentos,"""+"" 40 HP",,60,
+,Remédios,"""+"" 30 HP dura 1 rodada pra fazer efeito",,55,
+,Reparador de armaduras,dura ate 7 vezes,,30,
+,Afiador,,,15,
+,Martelo para escudo,,,25,
+,Acessórios,para guardar armas,,10,
+,Botas,,,10,
+,Luvas,,,7,
+,Casaco de couro,,,20,
+,Chapéu,"""+"" honra",,7,
+,Bomba G,"""-"" 30 HP inimi./""-"" 15 HP próprio",,70,
+,Granada explosiva,"""-"" 15 HP inimigo",,40,
+,Cinto da espada,,,15,
+,,,,,
+,,,,,
+,Cavaleiro,,,,
+,Arma,ATK/COM,DEF,Valor,Curso
+,Espada reta,6,5,70,Arma leve **
+,espada reta de fio duplo,7,6,75,Arma leve **
+,Espada Larga,7,5,85,arma pesada **
+,Claymore,10,8,85,arma pesada **
+,Cimitarra,6,5,50,arma pesada **
+,Cimitarra dupla,9,8,100,duas armas **
+,Espada bastarda,10,7,110,arma pesada **
+,Espada de duas mãos,8,7,95,arma pesada **
+,Machado de guerra,10,6,125,arma pesada **
+,Machado de fio duplo,8,4,100,arma pesada **
+,Alabarda - Machado,13,6,105,arma pesada **
+,Lança,7,7,100,arma pesada **
+,Espada reta dupla,8,7,120,duas armas **
+,Escudo melhorado,0,6,55,escudos
+,Escudo em Triangulo,-1,6,50,escudos
+,Escudo de guerra,0,9,110,escudos
+,Porrete maça,5,3,50,arma pesada **
+,Maça com corrente,6,2,65,armas especiais **
+,Armadura espercial,0,6,100,
+,Armadura de paladino,-3,12,140,
+,Armadura completa,-2,11,115,
+,Armadura basica,0,5,65,
+,Capacete,0,3,30,
+,,,,,
+,Equipamentos,Detalhes,OBS,Valor,
+,Afiador,,,15,
+,Martelo para escudo,para concertar danos no escudo,,25,
+,Reparador de armaduras,concerta armaduras,,30,
+,medicamento especial,"""+ 50 "" hp",,70,
+,remedios,"""+30"" hp/1d6 rodadas para fazer efeito",,55,
+,ervas - nutriente,,,70,
+,Roupas,,,15,
+,Botas,,,10,
+,Chapeu,,,7,
+,Casaco,,,20,
+,Luvas,,,7,
+,Bainha,,,20,
+,Cinto para espada,,,15,
+,Capa,"""+"" respeito",,5,
+,Fivela com brasão,"""+"" respeito",,25,
+,,,,,
+,Caçador,,,,
+,Arma,ATK/COM,DEF,Valor,Curso
+,Escopeta 12 mm,12,2,135,Tiro ***
+,Espingarda,11,1,135,Tiro ***
+,Escopeta com serrado,11,0,130,Tiro ***
+,Revolver,10,1,130,Tiro ***
+,Mosquete,9,1,125,Tiro ***
+,Tanbos,6,7,40,Duas armas **
+,Bastão de metal,6,6,60,Arma pesada***
+,Par de garras,7,4,75,Armas especiais *
+,Lança,7,7,100,Arma pesada***
+,Facão Espada-machete,6,4,60,Arma leve **
+,Tonfas,4,7,65,Duas armas *
+,Duplo revolver,15,1,150,Tiro ***
+,Proteçaõ de peito,0,5,45,
+,Corselete de couro,1,5,90,
+,Roupa especial,1,6,100,
+,Armadura basica,0,5,65,
+,Mascara,0,2,10,
+,Braceletes e caneleiras,0,4,45,
+,Machado de combate,7,6,85,Arma pesada **
+,Besta,10,1,105,Pontaria/Tiro **
+,Arco simples,5,0,65,Pontaria***
+,Arco composto,8,1,90,Pontaria***
+,Punhal,4,1,60,*
+,Cimitarra dupla,9,8,100,Duas armas **
+,Espada longa,7,5,85,Arma pesada **
+,Shaken,2,1,25,*
+,Soco ingles,3,-1,20,
+,,,,,
+,,,,,
+,,,,,
+,Equipamentos,Detalhes,OBS,Valor,
+,Muniçao Escopeta 12mm,24 balas/3 rec./30m util/+2 dano,,100,
+,Munição Espingarda,24 balas/3 rec./30m util/+2 dano,,100,
+,Munição Revolver,18 balas/3 rec/50m util/+1 dano,,105,
+,Munição escopeta - Serrada,20 balas/10 rec/20m util/+3 dano,,110,
+,Kit de granada explosiva,15 un,,300,
+,Kit de granada flash,15 un,,300,
+,Kit de granada gás,15 un,,300,
+,Granada de estilhaços,"""-""10 hp inimigo",,35,
+,"Bomba ""G""","""-""30 hp inimigo""-""15hp proprio",,70,
+,Tranquilizantes - Zarabatana,usado fora de combate poção do sono,,30,
+,Cordas,,,8,
+,Correntes,,,12,
+,Cloroformio,Poção do sono/emboscadas,,30,
+,Rede,,,10,
+,Flecha comum,20 un/+2 atk,,30,
+,Flecha Melhorada,20 un/+1 dano inimigo/+2 atk,,40,
+,Flecha de gás,20 un/+2 dano inimigo/+2 atk,,55,
+,Flecha explosiva,10 un/+3 dano inimigo/+2 atk,,65,
+,Medicamento especial,"""+"" 50 Hp",,70,
+,Remedios Naturais,6d6 de hp,,45,
+,Ervas - Cigarro,durante 3d6 rodadas - 5 no dano total,,75,
+,Poção de ervas,1d6 rodadas para efeito/+10 atk,,75,
+,Acessorios,,,10,
+,Roupas,,,15,
+,Botas,,,10,
+,Coldre de cintura,,,20,
+,Coldre de peito,,,20,
+,,,,,
+,Monge,,,,
+,Arma,ATK/COM,DEF,Valor,Curso
+,Shaken,2,1,25,*
+,Tonfas,4,7,65,Duas armas *
+,Tanbos,6,7,40,Duas armas **
+,Lança,7,7,100,Arma pesada ***
+,Espada de madeira,3,2,20,**
+,Sai Duplo,6,3,60,Duas armas *
+,Bastão de madeira,4,4,40,Arma pesada ***
+,Taichi,7,4,80,Arma leve**
+,Zulfigar,6,5,60,Arma leve**
+,Sabre,4,5,40,Arma leve**
+,Alabarda - Tridente,10,6,100,Arma pesada ***
+,Cajado,4,6,60,Arma pesada **
+,Arco simples,5,0,65,Pontaria ***
+,Punhal,4,1,60,*
+,Claymore,10,8,85,Arma leve**
+,Chicote,7,0,80,Armas especiais ***
+,Katana dupla,8,6,65,Duas armas **
+,Kodashi dupla,6,8,70,Duas armas *
+,Espada de treino,2,2,13,**
+,Armadura sagrada,3,8,110,
+,Aramdura especial,0,6,100,
+,,,,,
+,,,,,
+,Equipamentos,Detalhes,OBS,Valor,
+,Reparador mágico,poção reparadoras de armas/armaduras - 2dias para efeito,,90,
+,Afiador,,,15,
+,Capa,"""+"" Respeito",,5,
+,Chapeu,"""+"" Honra",,7,
+,Lamina mistica,Lamina mistica para armas sem laminas/ + 3 atk,,70,
+,Flechas misticas,20 UN/ +1 atk / +3 dano,,50,
+,Poção especial,#ERROR!,,70,
+,Cinto para espada,,,15,
+,Ervas - Nutriente,1d6 rodada para efeito/+8 atk,,70,
+,Roupas,,,15,
+,Botas,,,10,
+,Sandalias,,,5,
+,Remedios,#ERROR!,,55,
+,Kimono Simples,,,13,
+,Kimono especial branco,,,18,
+,Ataduras,recupera HP/+20 hp,,50,
+,Bainha,,,20,
+,Esmeralda mistica,Condutora de energia,,100,
+,Poção da limitação,- 15 def oponente por 2d6,,200,
+,,,,,
+,,,,,
+,Guardião,,,,
+,Arma,ATK/COM,DEF,Valor,Curso
+,Armadura Especial,0,6,100,
+,Armadura Sagrada,3,8,110,
+,Armadura Basica,0,5,65,
+,Escudo Melhorado,0,6,55,Escudos
+,Escudo em Triângulo,-1,6,50,Escudos
+,Escudo de Guerra,0,9,110,Escudos
+,Capacete,0,3,30,
+,Espada Larga,7,5,85,Arma Pesada **
+,Espada Longa,7,5,85,Arma Pesada **
+,Cimitarra,6,5,50,Arma Leve**
+,Espada de Duas Mãos,8,7,95,Arma Pesada **
+,Macgado de Fio Duplo,8,4,100,Arma Pesada **
+,Espada Reta Dupla,8,7,120,Duas Armas**
+,Espada Curvada,6,6,60,Arma Leve**
+,Espada Reta de Fio Duplo,7,6,75,Arma Leve**
+,Alabarda - Tridente,10,6,100,Arma Pesada ***
+,Claymore,10,8,110,Arma Pesada **
+,Alabarda - Machado,13,6,105,Arma Pesada ***
+,Braceletes e Caneleiras,0,4,45,
+,Alabarta Naginata,7,6,90,Arma Pesada ***
+,Armadura de Paladino,-3,12,140,
+,,,,,
+,,,,,
+,Equipamentos,Detalhes,OBS,Valor,
+,Poção Mística da Vit.,+120 hp,,160,
+,Remédios,#ERROR!,,55,
+,Roupas,,,15,
+,Afiador,,,15,
+,Ataduras,#ERROR!,,50,
+,Bainha,,,20,
+,Capa,,,5,
+,Água Mágica,#ERROR!,,125,
+,Cinto para Espada,,,15,
+,Botas,,,10,
+,Medicamento Especial,#ERROR!,,70,
+,Fivela com Brasão,#NAME?,,25,
+,Poção Especial,8 DEF / por 1d6 rodadas,,70,
+,Rubi Místico,Condutor de energia,,100,
+,,,,,
+,,,,,
+,Mago,,,,
+,Arma,ATK/COM,DEF,Valor,Curso
+,Mascara,0,2,10,
+,Capacete,0,3,30,
+,Armadura Basica,0,5,65,
+,Armadura Especial,0,6,100,
+,Corcelete Especial,1,7,105,
+,Armadura Basica c/ Corcelete,2,9,110,
+,Bastão de Metal,6,6,60,Arma Pesada***
+,Bastão de Madeira,4,4,40,***
+,Cajado,4,6,60,Arma Pesada**
+,Cimitarra,6,5,50,Arma Leve**
+,Claymore,6,6,85,Arma Leve**
+,Lança,7,7,100,Arma Pesada***
+,Sabre,4,5,40,Arma Leve**
+,Espada Reta,6,5,70,Arma Leve**
+,Alabarda - Tridente,10,6,100,Arma Pesada***
+,Alabarda - Foice,9,4,100,Arma Pesada***
+,Escudo simples,0,4,50,Escudos
+,Punhal,4,1,60,*
+,Jitte,3,5,65,Armas Especiais*
+,Soco Inglês,3,-1,20,
+,,,,,
+,,,,,
+,Equipamentos,Detalhes,OBS,Valor,
+,Reparador Mágico,Poção reparadora de armas e armaduras (2 dias para efeito),,90,
+,Afiador,,,15,
+,Capa,+ Respeito,,5,
+,Capus c/ Capa,+Misterio,,8,
+,Roupas,,,15,
+,Botas,,,10,
+,Cinto P/ Espada,,,15,
+,,,,,
+,,,,,
+,Assassino,,,,
+,Arma,ATK/COM,DEF,Valor,Curso
+,Alabarda Maginata Dupla,12,9,115,Arma Pesada ***
+,Espada Bastarda,10,7,110,Arma Pesada **
+,Zambatou,13,3,130,Arma Pesada ***
+,Cimitarra Dupla,9,8,110,Duas Armas **
+,Alabarda - Machado Duplo,15,8,140,Arma Pesada ***
+,Espada Reta Dupla,8,7,120,Duas Armas **
+,New Par de Garras,9,5,100,Armas Especiais *
+,Machete Dupla,9,6,105,Duas Armas **
+,Punhal Duplo,8,4,90,Duas Armas *
+,Alabarda Tridente Duplo,13,8,120,Arma Pesada ***
+,kodashi Dupla,6,8,70,Duas Armas *
+,Jitte,3,5,65,Armas Especiais *
+,Alabarda - Foice,9,4,100,Arma Pesada ***
+,Pistola Hell,11,5,170,Tiro ***
+,Pistola Hell 2,16,6,190,Tiro ***
+,Neo Katana Dupla,12,9,70,Arma Leve **
+,Taichi Dupla,10,7,110,Duas Armas **
+,Clava Grande,10,4,90,Arma Pesada **
+,Espada de duas Laminas,9,6,95,Arma Pesada **
+,Kukri Duplo,9,4,85,Duas Armas *
+,Adaga de Solo Dupla,7,3,70,Armas Especiais *
+,Tonfas Com Lâminas,4,9,75,Armas Especiais **
+,Bastão Seccionado,11,3,80,Armas Especiais ***
+,Kusari - Gama,13,3,95,Armas Especiais ***
+,Shikumizue,8,6,75,Arma Leve **
+,Falcioni,8,6,90,Arma Leve **
+,Mascara de Metal,0,2,10,
+,Armadura c/ Corcelete,3,9,115,
+,Aramdura Flexivel,4,10,130,
+,Kusanagi,10,7,90,Arma Leve **
+,,,,,
+,,,,,
+,Equipamentos,Detalhes,OBS,Valor,
+,Kit Primeiros Socorros,+20 HP / usar 3x,,70,
+,Kit de Disfarce,,,30,
+,Kit de Arrombamento,,,40,
+,Granada de Pregos,-3 proprio HP/-20 HP inimigo,,50,
+,Granada de Fumaça,-10 Atk inimigo por 1d6 R,,55,
+,Granada de Fumaça Negra,-5 HP inim./-10 atk inim. Por 1d6 R,,60,
+,Granada de Fumaça Negra Ext.,Por 2d6 R simula cegueira para ambos,,100,
+,Poção Torniquete,"Adiciona + 20 HP, por 3d6 R, Após isso é retirado o HP",,50,
+,Poção de Fadiga,Reduz a Resistência a Proti. Tolta em 5,,100,
+,Poção - Adrenalina,#ERROR!,,110,
+,Traquilizante Esp.,-10 ATK inimi. até o final do combate,,80,
+,Traquilizante Max.,-15Atk/-10DEF inimi. Até o fim,,130,
+,Facas de Arremesso,kit 15 facas pequenas +4Atk cada / 4 vezes,,50,
+
+
+Magias							
+Monge - Scerdote - Sacerdotisa							
+Nivel Principal							
+- Olho da Premonição*:							
+Magia permanente, 1 vez por luta; Utilizada na rodada de defesa, esquiva do ATK inimgo adicionando +10 ao valor de ATK com +3 em dano, na rodada de ATK do portador.A5							
+							
+- Espitito do Dragão*:							
+Magia permanente, 1 vez por luta, adiciona +12 no valor de ATK							
+							
+-Chamas Finais:							
+Magia permanente, 1 vez por luta; Impõe +10 de dano ao hp inimigo na rodada de ATK							
+							
+-Força Mistica*:							
+Magia permanente		1 vez por luta					
+Sacrifício de 10 de HP convertendo em +20 de Atk							
+							
+-Asas Aladas*:							
+Magia permanente		1 vez por luta					
+Utilizado na rodada de defesa, esquiva no ATK inimigo Adicionando +7 ao valor de ATK na rodada de ATK							
+							
+-Visão Espiritual:							
+Magia não Permanente			duração de 1D6 rodadas				
+Permite uma conversa com espiritos locais durante um tempo, conselhos, perguntas ou dicas de um ou mais espiritos, o que não implica se sabem ou não da verdade ou até mesmo se dirão.							
+							
+-Disposições de Emergência:							
+Magia não Permanente							
+Sacrifício de uma magia não permanente para aumentar em +20 de HP							
+							
+-Circulo de Magia:							
+Magia não Permanente							
+Durante uma rodada anula o Atk do oponente.							
+							
+-Realidade Primaria:							
+Magia não Permanente							
+Durante uma luta completa inutiliza todas as armas de ATK e DEF de ambos os lutadores							
+							
+-Olhos das Sombras:							
+Magia não Permanente							
+Permite ao portador vizualizar todas as magias do oponente.							
+							
+-Espirito Protetor ** :							
+Magia não Permanente							
+Permite convocar um espirito que absorve o ATK do oponente.							
+							
+-Eliminação de Possessão:							
+Magia não Permanente							
+Permite curar pessoas que foram afetadas por alguma metamorfose.							
+							
+-Bumerangue com Corrente:							
+Magia não Permanente			duração de 1D6 rodadas				
+Permite criar uma arma mágica que reduz o ATK do inimigo em -15, somando ao contra-ataque +10, do portador							
+							
+-Ataque Duplo Frontal*:							
+Magia não Permanente							
+Permite ao portador adicionar mais um golpe especial no ATK total							
+							
+Nivel Assassino							
+-Ressureição:							
+Magia não Permanente							
+Permite ressucitar alguém que já morreu, somente humanos.							
+							
+-Buraco de Minhoca							
+Magia não Permanente							
+Permite convocar no maximo de até 3 lutadores aliados no local em questão.							
+							
+"-Pilula de ultra evolução							
+Magia não Permanente							
+Em termos de jogo, evolui o personagem em 4 quadrados de experiência							
+							
+-Ataque Meteoro							
+Magia não Permanente							
+Quando o oponente ataca com um valor maior do que o de defesa a diferença é imposta ao atacante no hp.							
+							
+- Anulação especial							
+Magia não Permanente							
+Permite desativar as magias que duram rodadas							
+							
+-Maldição do envelhecimento							
+Magia não Permanente							
+Durante 1D6 rodadas, reduz o ATK e a DEF em 2D6 no valor do oponente							
+							
+-Libetação da alma*							
+Magia não Permanente							
+Permite ao portador marcar 5 corpos, após marcados, os corpos não podem ser ressucitados.							
+							
+-Mudança de coração							
+Magia não Permanente							
+Transforma um assassino em pessoa comum, ou ao contrário, faz uma pessoa deixar de ser um assassino ou a transforma em um.							
+							
+-Rastreio Mágico							
+Magia não Permanente							
+É colocado uma marca no corpo de alguém, depois disso é possivel obter a localização da pessoa							
+							
+-Copiar Magia							
+Magia não Permanente							
+Permite copiar a magia do oponente, seja ela de guardiões ou magos, a magia é utilizada na próxima rodada de ATK ou DEF.							
+							
+-Corpo Fechado							
+Magia não Permanente							
+Durante 2D6 rodadas as magias não afetão o portador.							
+							
+-Aprisionar Demônios							
+Magia não Permanente							
+Durante 2D6 rodadas diminui - 20 de ATK e DEF de um demônio							
+							
+							
+Magias							
+Guardiões							
+Nivel Principal							
+-Poção de água mística dos goblins							
+Magia Permanente		1 vez por luta					
+Restaura +60 de HP							
+							
+-Trovão de Luz							
+Magia Permanente		1 vez por luta					
+=+ 10 de dano no HP inimigo							
+							
+-Circulo de anulação							
+Magia Permanente		1 vez por luta					
+Converte uma magia não permanente em um vácuo capaz de cancelar um ATK total que seja adicionado uma magia, ou simplesmnte um ATK total comum.							
+							
+-Jarro Mágico							
+Magia Permanente		1 vez por luta					
+Rebate um ATK total, com ou sem magia adicionada, para o atacante, sem direito a esquiva ou defesa, para magia também.							
+							
+-Renascimento da carne							
+Magia Permanente							
+Permite ressussitar alguém que já morreu, seja humano ou não.							
+							
+-Mestre da Cura							
+Magia Permanente							
+Recupera 100 pontos de HP							
+							
+-Selamento Mistico do Designador**							
+Magia Permanente							
+Permite selar a alma, mente e corpo em uma carta, onde só poderá sair do encantamento quando o portador da magia designar; Permite selar uma única captura, seja humana ou não; Para o selamentoé necessário jogar na sorte no D6 , cada 50 pontos no hp equivalem a 1D6, os valores são arredondados.							
+							
+							
+-Faiscas*							
+Magia não Permanente							
+Impõe + 20 de dano ao HP inimigo							
+							
+-Feitiço*							
+Magia não Permanente							
+Impede que o oponente use uma "skill" durante uma luta completa.							
+							
+-Mascara da Libertação							
+Magia não Permanente							
+Anula magias ou golpes que reduzem o ATK ou a DEF, ou que anula ataques							
+							
+-Destruição da magia							
+Magia não Permanente							
+Cancela uma magia de mago, especialmente, seja qual for.							
+							
+-Mudança							
+Magia não Permanente							
+Muda os valores de ATK e DEF, trocando-os, durante 1D6 rodadas.							
+							
+-Selo do Aprisionamento*							
+Magia não Permanente							
+Durante 1 rodada o oponente fica sem atacar ou se defender; o dano é aplicado normalmente.							
+							
+-Mistico tufão do espaço							
+Magia não Permanente							
+Destrois 3 magias ao acaso do oponente; as magias são numeradas, é rodado o D6							
+							
+							
+Nivel assassino							
+-Fim do Caos							
+Magia não Permanente							
+Quando o portador estiver em desvantagem, mais de um oponente, então é imposto 10 de dano ao HP, vezes o número de oponentes, o total é imposto ao HP dos adversários.							
+							
+-Selamento Infinito*							
+Magia não Permanente							
+Permite ao portador selar um grupamento de hordas, independente do nivel e do HP; não funciona em humanos; até 4 hordas							
+							
+-Buraco Negro							
+Magia não Permanente							
+Permite ao portador destruir hordas, independente da quantidade e o número de hordas; não funciona em humanos.							
+							
+-Hordas de Ataque							
+Magia não Permanente							
+Portador convoca 1 grupamento de horda para 1 único ataque total, controlando-os, após o ataque o grupamento é destruido é destruido permanentemente, para ATK ou para DEF, união de 2 ATK totais.							
+							
+-Armadilha Buraco sem Fundo							
+Magia não Permanente							
+Permite destruir instantaneamente monstros nivel "E" ou "D" somente.							
+							
+-Unidade de Ação Autonoma							
+Magia não Permanente							
+Durante 1D6 rodadas diminue -15 a DEF do oponente							
+							
+-Presas de Cobra							
+Magia não Permanente							
+Contrala um zumbi ou vampiro para lutar por si, de nivel "E" somente							
+							
+-Proteção contra demônios							
+Magia não Permanente							
+Retira 20 de ATK ou DEF de um demônio							
+							
+Nivel Principal							
+-Companhia							
+Magia não Permanente							
+Permite ao portador ser transportado para um lugar em especifico junto com quem quiser							
+							
+-Roubar Magia							
+Magia não Permanente							
+Permite ao portador roubar uma magia do oponente, seja de mago, monge ou guardião, a magia roubada aleatoriamente, é numero e o D6 é rodado.							
+							
+-Falar com Animais							
+Magia não Permanente							
+Capacita o portador a falar com animais, podendo fazer perguntas a eles.							
+							
+-OBS:	Jarro Místico		Quando usado o portador não ATK/COM;				
+-OBS:	Hordas de ATK		É preciso ter "Selamento Infinito";				
+-OBS:	Unidade de Ação Autonoma			Necessário haver uma criatura dessas por perto			
+-OBS:	Roubar Magia		Não quer dizer usar a magia também.				
+							
+Magias							
+Mago							
+Nivel principal							
+-Confusão dos Elementos							
+Magia Permanente		1 vez por luta					
+Toda vez que o oponente atacar combinando o elemental, o elemental de valor de ATK é multiplicado por 2 e adicionando ao valor de contra-ataque do portador.							
+							
+-Runa Mística							
+Magia Permanente		1 vez por luta					
+Nega a realização de uma magia Permanente do oponente por uma luta completa Aleatoriamente, rolar o D6.							
+							
+-Energia secreta*							
+Magia Permanente		1 vez por luta					
+Por cada magia permanente ou golpe especial do oponente é implicado danos no HP, para magias vezes por 10 cada, para golpes especiais vezes 5, é utilizado apenas um dos efeitos , durante 3D6 rodadas.							
+							
+-Feitiço das Sombras							
+Magia Permanente		1 vez por luta					
+Invoca uma corrente capaz de segurar o oponente durante 2D6 rodadas, reduz o ATK/COM em -12, impossibilita o oponente de se defender.							
+							
+-Campo de força Da Encuridão							
+Magia Permanente		1 vez por luta					
+Anula magias e golpes que impõe dano no HP.							
+							
+-Bloqueio de Ataque							
+Magia não Permanente							
+Força o oponente a se defender mesmo que se tenha o feito o valor de ATK total, nesse caso o ATK é cancelado e o oponente rola a DEF na sua rodada de ATK.							
+							
+-Parar Defesa							
+Magia não Permanente							
+Funciona como um bloqueio de ataque. Impede que o oponente se de um ATK, o oponente é forçado a ATK/CON na sua rodada de defesa.							
+							
+-Reforçamento							
+Magia não Permanente							
+Quando o oponente utiliza uma magia de controle, que umplica atacar o portador com alguma criatura, como demonio, zumbi ou hordas, por exemplo, aumente a rolagem de dados de ATK ou DEF no valor respectivo dos da criatura; Essa magia serve tanto para ATK quanto para DEF.							
+							
+-Maldição da Serpente							
+Magia não Permanente							
+Quando o oponete impor dano no HP, seja por magia ou consequencia da batalha, roube do HP dele o valor respectivo.							
+							
+-Chamado do Assombro							
+Magia não Permanente							
+Permite controlar uma horda de Vampiros ou Zumbis, uma única horda com metade dos pontos de HP; para controlar não precisa de teste, o controle termina quando a horda é destruida; horda criada magicamente.							
+							
+-O Guerreiro que Retorna Vivo							
+Magia não Permanente							
+Selecione 1 lutador do local do local em questão e o faça realizar um ATK total, pelo portador, ou uma DEF total, o encanto termina na proxima rodada, o efeito dura uma rodada.							
+							
+-Magia Hipnótica							
+Magia não Permanente							
+Durante 2D6 rodadas permite controlar um monstro ou demonio de nivel "E" ou "D", no caso de lobisomens o controle é total até a morte da criatura.							
+							
+-Demônios Gêmeos da Traição e da Ajuda							
+Magia não Permanente							
+Conjura 2 demônios pequenos que ficam no ombro do portador e outro no do oponente, e então cada um revela uma magia aleatóriamente de cada um; role D6; durante esse efeito não há ATK/COM ou DEF, após essa rodada parada , as rodadas seguem normalmente.							
+							
+-Ilusões Mágicas							
+Magia não Permanente							
+Reduz as chances do oponente acertar o portador em 1/6, é rolado o D6 antes de se calcular o dano e após o cálculo do ATK total; o portador é coberto por ilusões reduzindo as chances de acerto do oponente.							
+							
+-Mudança de Alvo							
+Magia não Permanente							
+Quando o oponente declarar um ATK total, o portador sendo o alvo, o portador pode mudar a direção do ATK para outro alvo selecionado, no caso de ataques mágicos, no caso de ataques físicos o portador é teleportado, trocando de lugar com o alvo selecionado a escolha do portador.							
+							
+-Desarmamento							
+Magia não Permanente							
+Todas as armas de "ATK" e "DEF", não mágicas, do oponente, no caso de mais de um oponente, a magia se extende a +2 oponentes no máximo, desarmando-o.							
+							
+-Gravidade Zero							
+Magia não Permanente							
+Usado de duas formas; durante a batalha dura uma rodada, desfaz o efeito de uma magia qualquer, e/ou cancela um ATK, somente, seja mágico ou não; quando não é usada na batalha faz com que num raio de aproximadamente 20m, a gravidade seja mudada, durante no maximo de 2D6 rodadas.							
+							
+-Dispositivo de Evacuação/ Força Magnética							
+Magia não Permanente							
+Permite ao portador se envolver em uma energia que o faz voar para um lugar selecionado pelo mesmo; pode ser usado em batalha ou não.							
+							
+Nivel assassino							
+-Espelho de Mão do Demônio							
+Magia não Permanente							
+Quando o oponente utilizar uma magia que destroi outra magia, rebata o efeito de desativação/destruição/anulação para o oponente, o efeito é direcionado e aleatório, role o D6.							
+							
+-Anel da Destruição*							
+Magia não Permanente							
+Essa magia permite criar um cinturão de explosivos no corpo do adversario, para o efeito explosivo acontecer demora 1D6 +2 rodadas, o efeito da explosão é mágico e é todo concentrado no oponente causando nele 70 de dano direto ao HP, na rodada da explosão o portador da magia não pode atacar.							
+							
+-Ghol da Morte							
+Magia não Permanente							
+Permite conjurar um servo morto-vivo, com ATK-DEF-COM de 3D6 e 70 de HP, skill +7 para ATK e DEF; o servo existe até seus pontos de hp chegar a zero; depois de conjurado a cada 1D6 rodadas no sol, o servo perde -5 HP; após ser conjurado o servo pode ser chamado de volta a carta, porém ele retorna com -10 de HP de quando foi chamado.							
+							
+-Contra Designador							
+Magia não Permanente							
+Quando um guardião designar um "Selamento Místico do Designador", ela é anulada por esse efeito de "Contra Designador".							
+							
+-Última Vez							
+Magia não Permanente							
+Permite adicionar uma habilidade extra do "Ghol da Morte"; quando o Ghol atingir Hp de 20 ou menos, sob a ordem do dono o Ghol pode explodir causando 60 de dano ao oponente e transformando em cinzas o Ghol.							
+							
+-Energia de Movimento Ondulatório							
+Magia não Permanente							
+O portador pode sacrificar um número "x" de HP e infligir o dobro no HP do oponente sem direito a esquiva ou defesa, o portador não ataca nessa rodada.							
+							
+-Prego no Caixão*							
+Magia não Permanente							
+Permite colocar uma marca no oponente, após estar marcado a cada magia não permanente usada, o oponente perde -20 de HP, durante 2D6 rodadas.							
+							
+-Magia de Outra Dimensão							
+Magia não Permanente							
+O portador seleciona alguém de uma determinada classe e o scrifica para trazer de volta alguém da mesma classe que morreu, num periodo de até 7 dias.							
+							
+-Caixa Mística da Morte							
+Magia não Permanente							
+Após ser realizado um ataque total do oponente, ao comando do portador, fecha-se uma caixa no corpo do portador e de alguém selecionado, o ATK total é então desferido na caixa, o transporte é feito e o portador sai ileso da 2° caixa; essa magia só funciona com ATK fisico sem nenhum tipo de magia, armas magicas são consideradas.							
+							
+-Armadilha Falsa							
+Magia não Permanente							
+Quando o oponente usar alguma magia que destrua outra magia essa magia é adicionada entrando no lugar da selecionada e assim é destruida.							
+							
+-Maldição da Dor							
+Magia não Permanente							
+O portador pode reverter o ATK total de um oponente para ele com um adicional de +20, sem direito a defesa ou esquiva; o portador não ataca nessa rodada.							
+							
+-Invocar Mortos Vivos							
+Magia não Permanente							
+Permite transformar cadaveres em zumbis, independente do número de cadaveres e controla-los.							
+
+
+
+		Opcões de personagem							
+	Ninja								
+	Kit sugestão de habilidades secundárias								
+	Habilidade	Nivel	Detalhes						
+	Armadilhas	3							
+	Camuflagem	2							
+	Furtividade	3							
+	Interrogatório	2							
+	Intimidação	2							
+	Rastreio	2							
+	Sobrevivência	2							
+	Subterfugio	2							
+	Escapismo	3							
+	Arte Marcial	3	Em combate/+3ATK/DEF sempre						
+	Acrobacia	2							
+	Alpinismo	1							
+	Luta Às Cegas	3	Em combate/ não sofre penalidade						
+	Prestidigitação	2							
+	Linguagem de Sinal	2							
+	Disface	2							
+	Furtar	2							
+	Leitura Labial	2							
+	Primeiros Socorros	3	Acrescenta +3 ao HP						
+	Imitar Sons	2							
+									
+	Evolução de personagem normal								
+									
+	*Habilidade Padrão								
+	-Resistencia a proteção total 3 = 2								
+	reduz a proteção total Negativa em "-2"								
+	- proteçaõ total = 14								
+									
+	*Desafiar a Gravidade ³								
+	Habilidade que permite ao Nija, durtante um certo periodo, correr normalmnete, nas paredes, no teto, e ate mesmo sobre a água.								
+									
+	*Mescla-se as sombras³								
+	Habilidade que permite ao Ninja, durante um certo periodo, Misturar-se a escuridão completamente, ao olho nu é "impossivel" ser visto, podendo ser percebido pela habilidade secundaria "escutar" e lutar de igualdade com "luta às cegas".								
+									
+	-Golpes especiais da classe								
+	°Tecnica do Relampago	usado 1v	+9DEF						
+	°Tecnica do Fogo	usado 1v	+8 ATK/COM						
+	°Tecnica do AR	usado 1v	Esquiva						
+	°Tecnica da Terra	usado 1v	+10 ATK/COM						
+	°Esquiva	usado 1v	Evita o ATK						
+									
+									
+	OBS: As tecnicas Relampago, Fogo, AR, Terra não podem ser dobradas, replicadas e nem modificadas.								
+	Os Golpes especiais somam 5 pontos								
+									
+	Samurai								
+	Kit sugestão de habilidades secundárias								
+	Habilidade	Nivel	Detalhes						
+	Armadilhas	3							
+	Disfarce	2							
+	Furtividade	3							
+	Culinaria	1							
+	Empatia	2							
+	Labia	1							
+	Sobrevivência	2							
+	Liderança	1							
+	Geografia	1							
+	Arte Marcial	3	Em combate/ +3 ATK/DEF Sempre						
+	Acrobacia	2							
+	Escutar	3	Reduz a Penalidade " Luta às cegas						
+	Luta às Cegas	3	Não sofre penalidade/Em combate						
+	Prestidigitação	2							
+	Botânica	1							
+	Manobras para impressionar	1							
+	Inocência	2							
+	Pesca	1							
+	Metereologia	1							
+	Primeiros Socorros	3	Acrescenta +3 HP						
+									
+									
+	Evolução de Personagem Normal								
+									
+	Habilidade Padrão								
+	-Resistencia a Proteção Total ³ = 1								
+	Reduz a proteção total negativa em "-1"								
+	-Proteção total = 15								
+									
+	Habilidades Secundarias Especiais								
+	*Grande Salto³								
+	habilidade que permite ao Samurai pular grandes alturas, pular entre paredes para chegar ao topo, requer muito esforço fisico, porem mais eficas que "Alpinismo" ou derivações.								
+									
+	*Ataque Duplo³								
+	Poderosa habilidade que permite ao Samurai uma vantagem em combate, ele pode realizar 2 rodadas consecutivas, de ataque, ao inves de 1 rodada apenas ou seja, 1 rodada a mais do que faria.								
+									
+	-Golpes Especiais da Classe								
+	*Esquiva	usado 3v	evita o ATK						
+	*Saque rápido de arma	usado 1v	+10 ATK/COM						
+	Super Ataque	usado 1v	+11 ATK / COM						
+									
+	OBS: Ataque Duplo utilizar 1 v a cada 6 rodadas.								
+									
+									
+	Guerreiro								
+	Kit sugestão de habilidades secundárias								
+	Habilidade	Nivel	Detalhes						
+	Intimidação	2							
+	Montaria	3	Em Combate/+3 ATK/DEF com Animais						
+	Sobrevivênvia	2							
+	Camuflagem	2							
+	Rastreio	2							
+	Herbalismo	2							
+	Etiqueta	2							
+	Interrogatório	2							
+	Primeiros Socorros	3	Acrescenta +3 ao HP						
+	Heraldica	1							
+	Arremesso	3	Em Combate/+3 ATK/DEF						
+	Ferreiro	1							
+	Arte Marcial	3	Em Combate/+3 ATK/DEF						
+	Caça	1							
+	Tratamento de Animais	1							
+	Sedução	1							
+	Barganha	1							
+	Mineração	1							
+									
+									
+	Evolução de Personagem Normal								
+									
+	Habilidade Padrão								
+	-Resistencia a Proteção Total ³ = 2								
+	Reduz a proteção total negativa em "-2"								
+	-Proteção total = 10								
+									
+	Habilidades Secundarias Especiais								
+	*Espada com Escudo³/Lança com Escudo								
+	-Skill adicional; Habilidade que permite adicionar espada e escudo ao skill, funciona como uma Skill comum permanente, podendo usar uma espada com escudo, já que armas pesadas não podem ser usadas em conjunto com escudo, usa-se o conjunto como skill mediano, isolados, como ofensivo ou defensivo.								
+									
+	*Vigor³								
+	-Habilidade que permite ao guerreiro, lutar de mãos vazias ou não com mais eficiência, funciona como um skill mediano; Com arma o "Vigor" dura 1d6 + 3 rodadas como skill, caso esteja de mãos vazias é permante.								
+									
+	Golpes Especiais as Classe								
+	*Defender	usado 2v	+9DEF						
+	Concentrar a Força	usado 2v	- + 11ATK/COM						
+	Esquiva	usado 1v	Evita o ATK						
+									
+	OBS: todos os golpes somam 5 pontos								
+									
+									
+	Cavaleiro								
+	Kit sugestão de habilidades secundárias								
+	Habilidade	Nivel	Detalhes						
+	Etiqueta	2							
+	Heraldica	1							
+	Liderança	1							
+	Montaria	3	Em Combate/+3 ATK/DEF						
+	Rastreio	2							
+	Sobrevivêcia	2							
+	Primeiros Socorros	3	Acrescenta +3 ao HP						
+	Historia	1							
+	Status	1							
+	Sedução	1							
+	Barganha	1							
+	Ferreiro	1							
+	Contatos e Aliados	2							
+	Luta às Cegas	3	Em Combate/+3 ATK/DEF						
+	Manobras para impressionar	1							
+	Domar animais	3	Lutar com Animais						
+	Tratamento de Animais	1							
+	Desenho e pintura	1							
+	Joalheiria	2							
+									
+									
+									
+	Evolução de Personagem Normal								
+									
+	Habilidade Padrão								
+	-Resistencia a Proteção Total ³ = 3								
+	Reduz a proteção total negativa em "-3"								
+	-Proteção total = 19								
+									
+	Habilidades Secundarias Especiais								
+	*Espada com Escudo³/Lança com Escudo								
+	-Skill adicional; Habilidade que permite adicionar espada e escudo ao skill, funciona como uma Skill comum permanente, podendo usar uma espada com escudo, já que armas pesadas não podem ser usadas em conjunto com escudo, usa-se o conjunto como skill mediano, isolados, como ofensivo ou defensivo.								
+									
+	*Resistência ao Elemental³								
+	-Habilidade que concede ao personagem uma "Defesa Mágica" +3, contra ATK Elementais, seja ATK combinados com Elementos ou Elementos que infligem danos no HP ou Redução de ATK/Com ou DEF; É utilizada também em rodadas de contra-atk, funciona para golpes especiais.								
+									
+	Golpes Especiais as Classe								
+	Golpe de Espada	usado 1v	+8 ATK/COM						
+	Ataque Frontal	usado 1v	- + 7 ATK/CON						
+	Defesa	usado 1v	+ 10 DEF						
+	Ataque Rasgante	usado 1v	- + 11 ATK/COM						
+	Esquiva	usado 1v	Evita o ATK						
+									
+	OBS: todos os golpes somam 5 pontos								
+									
+									
+	Caçador								
+	Kit sugestão de habilidades secundárias								
+	Habilidade	Nivel	Detalhes						
+	Camuflagem	2							
+	Disface	2							
+	Furtar	2							
+	Labia	1							
+	Interrogatório	2							
+	Subterfúgio	2							
+	Rastreio	2							
+	Treinamento de Animais	1							
+	Escapismo	3							
+	Prestidigitação	2							
+	Metereologia	1							
+	Caça	1							
+	Pesca	1							
+	Arremeço	3	em combate/+3 ATK/DEF						
+	Investigação	1							
+	Alpinismo	1							
+	Acrobacias	2							
+	Tortura	3	-3HP A cada 2 rodadas de tortura						
+	Empatia	2							
+	Imitar sons	2							
+									
+									
+	Evolução de Personagem Normal								
+									
+	Habilidade Padrão								
+	-Resistencia a Proteção Total ³ = 2								
+	Reduz a proteção total negativa em "-2"								
+	-Proteção total = 15								
+									
+	Habilidades Secundarias Especiais								
+	*Tempo de Bala/Reduzir Tempo³								
+	-Hbilidade de complementar a "Esquiva", permite com que o caçador a proeza que nenhuma outro pode, Esquivar-se de golpes e além disso de tiros, flechas,zarabatanas e fukumi bari; com exceção de projetis/balas, é possivel agarrar objetos lançados para serem arremessados de volta; Só pode ser usado caso tenha "esquiva", granadas contam.								
+									
+	*Alternar entre Armas³								
+	-Permite ao caçador a destreza de trocar de arma em grande velocidade, alternando entre armas, como por exemplo alternar entre armas de fogo e escudo, ou arco de flexa e escudo, ou entre duas armas ofensivas; a troca de armas funcionam entre rodadas, normalmente perde-se 1 rodada para faze-la.								
+									
+	Golpes Especiais as Classe								
+	Ataque Forte	usado 2v	+11 ATK/COM						
+	Esquiva	usado 3v	Evita o ATK						
+									
+	OBS: todos os golpes somam 5 pontos								
+	OBS2: tempo de bala 2 opções								
+	1-Anula o ATK do oponente e devolve o que foi lançado, realizando somente essa ação na rodada de esquiva; começa rod. De atk.								
+	2-Anula o ATK do oponente e devolve o que foi lançado na sua própria rodada de ATK.								
+									
+									
+	Monge								
+	Kit sugestão de habilidades secundárias								
+	Habilidade	Nivel	Detalhes						
+	Tratamento com animais	1							
+	Culinaria	1							
+	Rituais	2							
+	Historia	1							
+	Sobrevivência	2							
+	Artes Marciais	3	Em combate/+3ATK/DEF						
+	Hipinose	3							
+	Leitura Labial	2							
+	Furtividade	3							
+	Status	1							
+	Inocencia	2							
+	Teoria da Magia	3							
+	Barganha	1							
+	Arqueologia	1							
+	Empatia	2							
+	Pesca	1							
+	Mineração	1							
+	Labia	1							
+	Meteorologia	1							
+	Luta as Cegas	3	Em combate/+3ATK/DEF						
+									
+									
+	Evolução de Personagem Reduzida								
+									
+	Habilidade Padrão								
+	-Resistencia a Proteção Total ³ = 1								
+	Reduz a proteção total negativa em "-1"								
+	-Proteção total = 16								
+									
+	Habilidades Secundarias Especiais								
+	*Desafiar a Gravidade³								
+	-Habilidade que permite ao Monge, durante um certo tempo, correr normalmente, nas paredes, no teto e até mesmo sobre a água.								
+									
+	*Efeito de Clarividência³								
+	-Habilidade que permite ao monge vislumbrar, por um tempo, fatos relacionados a ele ou a outros; do futuro e até mesmo do passado, apresentada de forma simples ou complexa, completa ou incompleta; em termos de jogo usa-se 2v por sessão, controladas diretamente pelo mestre ou, uma vez a pedido do jogador e outra do mestre								
+									
+	Golpes Especiais	As 5 magias Permanentes		Somam 5 pontos					
+									
+	-Desvantagens - Adiquiridas no experiente e mestre								
+	*Tendência a ganhar inimigos- o personagem desperta inimizades com os outros, por seu jeito ou seja lá o que for, as outras pessoas costumam rivalizar e até se tornar inimigo do personagem.								
+									
+	*Efeitos de Clarividência								
+	O personagem pode ouvir os espiritod em algumas ocasiões, susurros desconcertantes, geralmente gritos, reclamações, choro, vozes que destraem e encomodão o personagem, sem um modo de se comunicar com eles."-3" em ATK/COM e DEF ao utilizar magia de 6 em 6 ROD.								
+									
+	-Nivel Assassino '	Desvantagem Adicional							
+	*Olhos Esbranquiçados								
+	Os olhos se tornão muito claros, quase brancos gerando um certo desconforto nos outros, sem penalidades.								
+									
+									
+	Guardião								
+	Kit sugestão de habilidades secundárias								
+	Habilidade	Nivel	Detalhes						
+	Domar Animais	3	Lutar com animais						
+	Desenho e Pintura	1							
+	Teoria da Magia	3							
+	Rituais	2							
+	Joalheria	1							
+	Status	1							
+	Heraldica	1							
+	Arremesso	3	Em combate/+3 ATK/DEF						
+	Etiqueta	2							
+	Empatia	2							
+	Liderança	1							
+	Inocência	2							
+	Mineração	1							
+	Sedução	1							
+	Primeiros Socorros	3	+3 ao HP						
+	Manobras para Impressionar	1							
+	Contatos e Aliados	2							
+	Ferreiro	1							
+	Barganha	1							
+	Metereologia	1							
+									
+									
+									
+	Evolução de Personagem Reduzida								
+									
+	Habilidade Padrão								
+	-Resistencia a Proteção Total ³ = 2								
+	Reduz a proteção total negativa em "-2"								
+	-Proteção total = 19								
+									
+	Habilidades Secundarias Especiais								
+	*Resistencia Elemental³								
+	-Habilidade que concede ao personagem uma "Defesa Mágica" +3 contra ataques elementais, seja ATK combinado com elementos ou elementais que infligem danos ao HP, ou redução de ATK/CON e DEF; utilizado tambem em rodadas de contra-atq; funciona para golpes especiais.								
+									
+	*Vigor³								
+	-Habilidade que permite ao guardião, lutar de mãos vazias ou não, com mais eficiencia, funciona como um skill mediano; com arma o "vigor" dura 1D6 + 3 rodadas como skill adicional, caso esteja de maos vazias é permanente.								
+									
+	Golpes Especiais;		As 5 magias permanentes		somam 5 pontos				
+									
+	-Desvantagens- Adiquiridas no nivel experiente e mestre								
+	*Inquietar Animais = Por motivos não explicados os animais em alguns raros momentos se tornam aversos a você, apesar de  normalmente serem amistosos; Eles se afastam , setem medo e as vezes se tornãm ferozes.								
+									
+	*Assombrado = Pessoas mortas que o personagem conheceu em vida retornam como espiritos para assombralo. As vezes falam coisas sem um sentido necessariamente, as vezes aparecem de formas estranahs como sem braço ou sem cabeça por exemplo.								
+									
+	Nivel assassino - Desvantagem adicional								
+	*Sangramento = Escorre sangue da boca, ou do nariz e atpe os ouvidos, acontece pelo uso excessivo da magia, acontecendo repetidamente provoca "-3" em HP, durante umas rodadas especiais ( 6 em 6 rodadas após usar magia )								
+									
+									
+	Mago								
+	Kit sugestão de habilidades secundárias								
+	Habilidade	Nivel	Detalhes						
+	Atuação	1							
+	Ilusionismo	1							
+	Instrumentos Musicais	1							
+	Joalheria	1							
+	Mineração	1							
+	Status	1							
+	Subterfugio	2							
+	Impressionar	2							
+	Empatia	2							
+	Jogos de cartas	1							
+	Acrobacia	2							
+	Historia	1							
+	Rituais	2							
+	Teoria da Magia	3							
+	Hipnose	3							
+	Arquitetura	1							
+	Tratamento de Animais	1							
+	Leitura Labial	2							
+	Costureiro	1							
+	Antropologia	1							
+									
+									
+	Evolução de Personagem Reduzida								
+									
+	Habilidade Padrão								
+	-Resistencia a Proteção Total ³ = 1								
+	Reduz a proteção total negativa em "-1"								
+	-Proteção total = 14								
+									
+	Habilidades Secundarias Especiais								
+	*Conhecimentos sobre os livros de magia³								
+	-São conhecimentos que os magos adiquirem sobre tanto magias sobre outros magos e seus detalhes como tambem de monges e guardiões, possivelmente de objetos magicos e teorias sobre a magia, e outros assuntos misteriosos								
+									
+	*Efeitos de Clarividências³								
+	- Habilidade que permite ao mago vislumbrar, por um tempo, fatos relacionados a ele ou a outros; do futuro e até mesmo do passado, apresentados de forma simples ou complexa, completa ou incompleta; em termos de jogo usa-se 2v por sessão, controladas diretamente pelo mestre ou , uma vez a pedido do jogador e outra do mestre.								
+									
+	Golpes especiais	As 5 magias Permanentes		Somam 5 pontos					
+									
+	Desvantagens - Adiquiridas no nivel experiente e mestre								
+	- Tendência a ganahr inimigos - funciona exatamente como descrito no "monge".								
+									
+	- Poltergeist - Um espirito se manifesta, de forma invisivel, coisas inexplicaveis acontecem, vasos estouram, copos se mexem, portas se batem, vidro se quebram, ampulhetas funcionan ao contrario; é causado dano fisico no personagem, "-3" em HP, durante rodadas especificas (6 em 6 apo mag)  								
+									
+	Nivel Assassino - Desvantagem adicional								
+	-Toque letal - Parecido com "aura de medo"; animais sentem-se acoados e fogem, plantas, ervas, vegetais, apodrecem na sua presença, as vezes se despedação ao toque esse efeito funciona as vezes..								
+									
+									
+	Mago								
+	Kit sugestão de habilidades secundárias								
+	Habilidade	Nivel	Detalhes						
+	Armadilhas	3							
+	Arrombamentos	2							
+	Atuação	1							
+	Escapismo	3							
+	Disfarce	2							
+	Acrobacia	2							
+	Artes Marciais	3							
+	Tortura	2							
+	Luta às cegas	3							
+	Manobras para impressionar	1							
+	Status	1							
+	Camuflagem	2							
+	Arremesso	3							
+	Leitura Labial	2							
+	Intimidação	2							
+	Treinamento de Animais	1							
+	Inocencia	2							
+	Escutar	3							
+	Prestidigitação	2							
+									
+									
+									
+	Evolução de Personagem Reduzida								
+									
+	Habilidade Padrão								
+	-Resistencia a Proteção Total ³ = 1								
+	Reduz a proteção total negativa em "-1"								
+	-Proteção total = 14								
+									
+	Habilidades Secundarias Especiais								
+	*Mesclar-se as Sombras³								
+	-Habilidade que permite ao assassino, durante u certo periodo, misturar-se a escuridão completamente, ao olho nu é "impossivel" ser visto, podendo ser percebido pela habilidade secundaria "escutar" e lutar de igualdade com "luta às cegas"								
+									
+	*Aura de Medo³								
+	-O assassino é capaz de provocar uma sensação de medo a outros, faz com que os outros sintão medo, terror, calafrios, duvidas, percepções decisivas. Pesoas comuns são facilmente influenciadas e muito vulneráveis a tal. "-3 ATK/DEF durante o combate.								
+									
+	Golpes especiais	Vantagens							
+	-Sempre +7 ATK/DEF usar o elemental mais um vez; elemental nivel 2								
+									
+	Desvantagens								
+	*Provocar Empatia Negativa								
+	-uma consequência de ser assassino é provocar sempre, em algumas situações, uma impressão negativa, pessoas não sabem porque, simplesmente não gostam de voce, não vão com a sua cara ou não confiam em você; talvez seja uma aura de medo despertando ou apenas intuição; nem sempre é facil causar uma boa impressão e adiquirir confiança alheia, porém sempre ha aqueles que são atraidos pelo "mal elemento".								
+									
+
+
+                                    												
+Descrição das Habilidades Secundárias												
+Tratamento de animais ¹												
+Conhecimentos que permitem tratar de animais feridos ou doentes												
+Treinamento de Animais¹												
+Saber como treinar animais domesticos ou ate selvagens, para fazerem truques simples, e com muita insistencia, truques mais complexos, ou apenas para que saibao se comportar.												
+Montaria³												
+SAber montar em animais. Habilidades que permite usar animais para combates.												
+Domar Animais³												
+Habilidade mais especifica para treinamentos de animais, possui resultados mais rapidos e eficientes inclusive para fazer o animal lutar por você.												
+Armadilhas ³												
+Capacidade de preparar armadilhas. Também usada para desarmar e concertar armadilhas. Serve também para perceber o ambiente e a possivel armadilha.												
+Arrombamento¹												
+Permite ter os conhecimentos necessarios para passar por uma porta trancada, seja quebrando ela da forma certa ou abri-la sem deixar rastros.												
+Arquitertura¹												
+Criação de projetos visuais, como a construção de casas e edificações. Permite que muita atenção perceba paredes e colunas suspeitas.												
+Atuação												
+Capaz de simular emoções, crenças ou um estado de espirito que não é necessariamente o seu. Permite tornar os seus argumentos mais convicentes ou fingir ser outra pessoa.												
+Canto¹												
+Saber cantar de modo agradavél.												
+Culinaria¹												
+Saber cozinhar bem, conhecer ingredientes para receitas.												
+Dança¹												
+Habilidade de saber dançar qualquer tipo de ritmo, podendo aprender outros tipo de dança, caso não conheça, podendo aprender so de olhar.												
+Desenho de PIntura¹												
+Saber produzir ou reproduzir ilustrações usando varios tipos de material ou tecnicas.												
+Escapismo2												
+Habilidade de escapar de algemas, correntes, cordas e outros mecanismo de imobilizaçao, se libertando sem se machucar.												
+Escultura¹												
+produzir figuras tridimencionais moldando o barro, madeira, pedra, marmore e ate metal.												
+Instrumentos Musicais¹												
+Saber tocar instrumentos. permite saber afinar e concertar.												
+Joalheria²												
+Habilidade de saber lidar com metais e pedras preciosas e até a capacidade de avaliar, estimar o valor de um objeto e se é autentico ou não.												
+Prestidigitação²												
+Truque de mão rapidas, poder fazer sumir pequenos obejtos da vista das pessoas.												
+Camuflagem¹												
+saber esconder-se ou esconder pessoas em ambientes naturais como florestas e campos.												
+Antropologia¹												
+Conhecimentos de estudo sobre o ser humano atravez de varios aspectos, aliando caracteristicas do homem vivio, fisico e seu fóssil.												
+Arqueologia¹												
+Estudo de fatos a partir de movimentos e instrumentos não escritos. É possivel saber sobre o passado.												
+Botânica¹												
+Ciência que estuda as planta. Sabe identificar diferentes espécies de plantas e determinar se são comestiveis, venenosas ou medicinais.												
+Geografia¹												
+Estuda a superficie da terra, seus acidentes fisicos, clima, solos e até mesmo um pouco da história de uma fámilia.												
+Historia¹												
+Estudo de fatos notaveis ocorridos no decorrer do tempo e da historia.												
+Herbalismo²												
+Conhecimentos de ervas. Lida com confecção de poções, venenos e outros compostos derivados de ervas e plantas medicinais. Mais especifico que a botânica.												
+Metereologia¹												
+O personagem sabe prever o clima no dia seguinte.												
+Zoologia¹												
+Permite identificar os diferentes tipos de animais como seus habitos tambem.												
+Oculto²												
+Permite reconhcer e até entender um pouco do que se passa à sua volta. Ajuda a identificar rituais, itens misticos, gestos, livros e maigia.												
+Rituais²												
+Capacidade de entnder a logica por tras da magia realizada												
+Teoria da magia²												
+Consegue entender a logica por traz da magia realizada												
+Disface²												
+Habilidade de parecer-se com outra pessoa ou pelo menos, ocultar a própria aparência.												
+Escutar³												
+Através de um ouvido bem treinado, pode-se interpretar ou discernir diferentes sons, conversar no meio de uma multidão, vozes atras da porta.												
+Acrobacia¹												
+Habilidade de equilibra-se em pequenas superfícies, andar sobre cordas e tal.												
+Arremesso³												
+Habilidade de saber arremessar objetos, como facas, por exemplo.												
+Alpinismo¹												
+Habilidade de saber escalar montanhas, rochedos, por exemplo, de maneira eficais.												
+Caça												
+Saber a forma de atrais animais ou insetos, o jeito de captura-lo.												
+Pesca¹												
+funciona da mesma forma da caça, sendo este mais especifico para criaturas marinhas.												
+Etiqueta¹												
+Permite ao personagem saber como falar, vestir-se e comporta-se de acordo com a situação. o personagem apenas age de maneira correta, a interpretação depende do jogador.												
+Falsificação²												
+Técnica usada para criar pópias convicentes de cartas, documentos, obras de arte e demais objetos.												
+Furtar²												
+É a arte de retirar objetos de posse das pesoas sem que elas percebam. Pode ser usada para colocar objetos em posse das pessoas se que percebam.												
+Furtividade²												
+A habilidade de se esconder e escopar do campo visual de alguém. Se mover em silêncio razoavelmente,												
+Jogos de carta¹												
+Permite saber jogar, entender jogos de cartas, até saber um jeito de burlar as partidas a próprio beneficio,												
+Jogos de Tabuleiro¹												
+Identico ao" jogo de cartas", mas funciona para jogos de tabuleiro												
+Linguagem de sinais¹												
+Permite saber criar códigos gestuais, para uma mensagem, evitando a fala, serve para entender o que o outro está falando também.												
+Leitura Labial¹												
+Percepção boa o bastante para ver, e entender o que esta dizendo com os labios mesmo sem ouvir.												
+Imitar Sons¹												
+Hablidade de saber imitar sons, seja a voz de alguem , ou animais, sons de objetos também, mas o som emitido nem sempre é convicente o bastante.												
+Empatia²												
+O personagem compreende e é capaz de sentir as emoções de outras pessoas, estando apto a reagir prontamente a elas. Ajuda a detectar mentiras, mas de forma imprecisa.												
+Hipnose²												
+Atraves de luzes, movimentos ou palavras, o personagem afeta a mente da vítima fazendo com que se torne sugestionavel e mais facil de manipular. Melhoras as chances de convencer alguém.												
+Interrogatório²												
+Atraveś de pergunta habilidosas e muita pressão emocional, o personagem consegue "colocar o suspeito na parede" e fazer com que caia em contradição, existindo ou não, conseguindo dele o que desejar.												
+Impressionar²												
+Habilidade de usar a roupa certa, o palavreado certo , tudo na hora certa. A inteção é ganhar a confiança dos presentes, fazendo-os sentir que o personagem é um deles, mesmo que não seja.												
+Intimidação²												
+Similar á "Lábia", mas utiliza ameaças em vez de conversa civilizada. Um personagem habilidoso pode intimidar alguém mesmo que não tenha condições de cumprir a ameça, desde que a vítima não saiba disso.												
+Lábia¹												
+Trata-se de persuadir pessoas através de muita bajulação, conversa amistosa ou mentiras convicentes.												
+Liderança¹												
+Capacidade de fazer outras oessoas seguirem ordens em suas próprias capacidades.												
+Sedução¹												
+O personagem finge sentimentos românticos com relação á pessoa visada. Beleza fisica não é fundamental para seduzir, basta usar charme.												
+Tortura³												
+O personagem consegue o que deseja infligindo dor fisica através de chicotadas, agulhas, choque eletricos e demais técnicas.												
+Luta ás cegas³												
+Capacidade de lutar sem ver, o que inclui olhos vendados e cegueira.												
+Manobras para impressionar¹												
+Pode realizar efeitos com uma arma visando chamar a atenção.												
+Primeiros Socorros³												
+O personagem sabe fazer curativos em ferimentos, imobilizar fraturas, deter sangramentos, aplicar curativos em caso de acidentes.												
+Mineração¹												
+Conhecimento necessarios para obter minerios ou pedras preciosas, encontrar locais onde se possa explorar algo sem sofrer acidentes.												
+Navegação¹												
+Conhecimento necessario para conduzir para obter minerios ou pedras preciosas, encontrar locais onde se possa explorar algo sem sofrer acidentes.												
+Navegação¹												
+Conhecimento necessarios para conduzir um veiculo ou embarcação de um ponto a outro. Permite encontrar a direção certa a seguir. Permite interpretar mapas, como "geografia".												
+Barganha¹												
+Habilidade de conseguir alguma coisa pelo menor preço. Barganhas podem ser realizadas em alguns minutos e outras podem levar semanas, meses ou anos.												
+Pesquisa/Investigação¹												
+Relaciona a obter informações. Pode ser usada em uma biblioteca para encontrar um livro, nas ruas para encontrar a pessoa ou lugar que procura.												
+Rastreio²												
+Habilidade de encontrar e seguir pistas e pegadas. Para que uma pista seja seguida, é preciso que a pessoa, criatura ou veiculo sendo seguido deixe uma pista.												
+Sobrevivência²												
+Saber o que é preciso para sobreviver em terreno selvagem, longe da civilização. Encontrar água ou comida, orientar-se, fazer uma armadilha.												
+Subterfúgio²												
+O personagem é capaz de burlar a observação de outras pessoas. Permite burlar a observação atenta, de guardas, por exemplo.												
+Atifices¹												
+Carpinteiro, costureiro, ferreiro, coureiro, pedreiro, sapateiro												
+Habilidade de trabalhar com um material específico, podendo se construir ou concertar												
+Status¹												
+Refere-se ao conceito que os npc's tem do personagem antes de conhece-lo. Podendo ser conhecido por ser jovem talentoso ou por ter feito algo importante.												
+Contatos e Aliados²												
+Por algum motivo o personagem possui contatos ou aliados, podendo ser amigos, familia ou até mesmo informantes, tendo alguma boa razão pra estar em contato com o personagem.												
+Inocência²												
+O personagem tem uma habilidade quase sobre natural de provar sua inocência em qualquer acusação sem testemunhas ou provas. Consegue arrumar álibis que convencem os outros no beneficio da duvida.												
+Artes Marciais³												
+O personagem aprendeu tecnicas de combate que ajudam a lutar sem armas ou melhorar seus movimentos durante as lutas.												
+Buzios¹												
+Metodo de estudo do futuro atraves de pedras												
+Psionicismo²												
+O conhecimento sobre poderes psíquicos e como identificar pessoas que os possuam bem como suas diferenças.												
+Viagem Astral³												
+É a habilidade de controlar a alma fora do corpo.												
+Código Morse¹												
+Usado para transmitir mensagens compostas de pontos e traços, através de luzes ou sons intermitentes.												
+Criptografia²												
+É a habilidade de criar mensagens secretas que não possam ser lidas por pessoas não autorizadas, ou decodificar essas mensagens quando você é a pessoa não autorizada.												
+Senso Númerico¹												
+O personagem estima com precisão coisa voltadas a numeros.												
+OBS: Outras habilidades secundarias poderão surgir no jogo.												
+Senso de Direção¹												
+Funciona como senso numerico												
+Meditação¹												
+O persongem com essa habilidade possui um estado mental mais elevado, aumenta sua concentração e percepção.												
+Luta Suja³												
+Funciona como "Artes Marciais" porem de forma desonrosa através de artimanhas. Só uma dessas habilidades é usada no combate, mas podem ser compradas.												
+Combate com duas armas³												
+O personagem luta utilizando uma arma qualquer seja "leve" ou "pesada", e acrescenta uma arma que não requer curso como adaga e punhal; os valores são combinados.												
+Combate com 2 armas Extensas³												
+O personagem luta com duas armas pesadas diferentes como bastão, alabardas, lança e etc. O personagem só ataca após 2 ROD de DEF alternando entre as armas, o ATK é combinado o valor das armas; não se pode contra-atacar												
+Multiplo Movimentos³												
+Em situações onde o personagem esta em desvantagem númerica, ele ataca uma vez e defende o número de ataque respectivo dos oponentes, o "ATK" é direcionado a um opnente; com essa habilidade pode-se dividir os dados se "atk", caso enfrente 2 oponentes, o personagem de nivel 2 por exemplo ataca duas vezes com 1D cada.												
+Movimentos Silenciosos²												
+O personagem se move normalmente sem fazer barulho ou pelo menos quase. Pode até enganar o "escutar" e "sentidos aguçados".												
+Treinamento contra furtos²												
+O personagem pode perceber de forma rapida se foi roubado, sem demonstrar isso; Ajuda a estar atento a possiveis "espertinhos" ao seu redor.												
+												
+
+
+
+
+
+
+
+
+                                                 											
+Quando se utiliza a montaria em combate soma-se "+3" em "ATK/CON" e "DEF". Metade do dano provocado pelo oponente, é passado para o animal. Para Utilizar Essa habilidade secundária é necessario que o animal tenha sido treinado, ou seja, que tenha sido "Domado" com a habilidade secundaria "Domar Animais".											
+Domar Animais											
+O animal pode lutar pelo dono, ou com o dono, tanto faz; O animal tem uma rolagem de dados especifica, assim como sua recuperação é própria.											
+Escutar											
+Com escutar pode-se lutar sem ver, sem receber penalidades totais, a penalidade com "escutar" a penalidade é reduzida para "-15" em "ATK/CON" e "DEF" 											
+Arremesso											
+Em combate pode-se causar "+3" em "ATK/CON", caso o personagem queria arremessar facas, kunais ou coisa do tipo, é somado ao "ATK/CON" esse valor de "+3", pode-se arremessar escudos ou lanças, por exemplo, é adicionado da mesma forma.											
+Lutar às cegas											
+Com essa habilidade é reduzida a penalidade de não enxergar para "-10" em "ATK/CON" e "DEF"; caso a penalidade implicada pelo ambiente seja de "pouca visibilidade" o personagem com "lutas às cegas" não sofre penalidade.											
+Primeiros Socorros											
+O personagem recebe "+3" em HP sempre que tiver descanço e recuperar 10 de HP.											
+Artes Marciais											
+Adiciona "+3" em "ATK/Con" e "DEF"											
+Arremesso-Observação											
+Pode-se arremessar um numero especifico de objetos											
+Shurikens		6 por rodade de ATK									
+Kunais		3 por rodada de atk									
+Granadas		2 por rodada									
+Granada G		2 por rodada									
+Fukumi Bari		1 por luta									
+Tranquilizantes		1 por luta									
+Flechas - Arco Simples		1 por rodada de atk									
+Flechas - Arco Composto		2 por rodada de atk									
+Armas de Pares		as 2 por rodada									
+Objetos quaisquer		1 por rodada									
+Arma de Fogo		1 por rodada									
+Adagas		2 por rodada									
+Facas		4 por rodada									
+Facas de Arremesso		4 por rodada									
+Tortura - Observações											
+independente de que tipo de tortura seja , tira-se 1 d6 de hp de 3 em 3 rodadas											
+Armadilha - Observação											
+Fica a cargo do mestre decidir os efeitos das armadilhas apartir 1d6											
+											
+											
+											
+
+
+
+                                            Cursos Disponiveis				
+Curso Arma Pesada		80		
+Curso de arma leve		80		
+Curso de pontaria		100		
+curso de duas armas		90		
+curso de armas especiais		70		
+curso de treinamento de animais		80		
+curso de tiro		100		
+curso de sobrevivencia		200		
+curso de atifices		150		
+curso de escudo		80		
+Curso de montaria		300		
+curso de desenho e pintura		100		
+curso de primeiros socorros		350		
+				
+
+
+
+
+
+
+
+
+
+                Penalidades do HP														
+durante um combate, quando um dos personagens alcança o "hp" igual, ou menor, depois de um ataque do oponete, que chegue a 20, o ATK sofre uma penalidade de "-5" a todo "ATK/Con" ate que o valor de 20 seja restaurado/superado														
+durante um combate , quando o "hp"chega a 20 ou menos, após um ataque do oponente, o "atk/con" sofre penalidade "-5", caso o valor do "hp"reduza, chegando a 5 ou menos, a penalidade au menta para "-10" a todo o "atk/con" até que o valor de "5" no hp seja superado, voltandoa penalidadede "-5" no "atk/con"														
+Nao se alimentar														
+O HP sofre penalidade de "-30", o HP de 1 em 1 dia por não beber água, chegandoa "0" o HP, o personagem desmaia, caso o personagem esteja sofrendo penalidade de fome também, ou prestes a sofrer, a penalidade de "não beber água" prevalece.														
+Recuperação de HP														
+Recuperação de ferimentos é de 1 em 1 dia = 10 HP restaurados, isso com dias de descanço, sendo alimentado e hidratado, aplicando tratamentos de primeiros socorros pode aumentar a restauração de HP														
+Animais														
+Animais de pequeno porte, animais pequenos possuem 1D6 + 1 em "ATK/CON" e "DEF", o valor é fixo; possuem 30 HP. Ex.: cachorros, lobos, tubarões e etc.														
+Animais de medio porte, possuem 1D6+2 ou 1D6+4; possuem 40 HP.: cachorros, lobos, rapozas e ETC.														
+Animais de grande porte, possuem 1D6 +5 ou 1D6+6; possuem 50 HP. Ex.: ursos, tubarôes e etc.														
+OBS.: Animais recuperão HP como os humanos, porem com 1 dia = 5 HP; Não alimentar o animal ou nâo dar bebida; aumentão a penalidade no dobro; penalidades no HP, no combate são identicas ao ser humano, demais tipos de penalidades como "desorientação" é identico tambem; no caso de "não enxergar", "pouca visibilidade" e "superficies incomuns" é retirado o bônus "+3" como montaria, é diminuido ao inves disso"-3" no ATK, no caso do animal lutar sozinho as penalidades são impostas do mesmo jeito como os humanos.														
+Água														
+Combates submerços, os personagens sofrem penalidade de "-10" em "ATK/CON" e "DEF", alem da penalidade de afogamento iminente que reduz em "-10" no HP de 4 em 4 rodadas; os lutadores dó não sofrem penalidades caso tenha alguma habilidade secundaria ou skill "mestre manipulador de elemento - agua"														
+Não exergar														
+O personagem sofre penalidade no "ATK/CON" e "DEF" num combate por não ver o inimigo, ha uma redução de "-20" no "atk/con" e "def", caso tenha a habilidade secundaria "escutar" a penalidade é reduzida para "-15" "atk/con" e "def", caso tenha a habilidade secundaria "escutar" a penalidade é reduzida para "-10" caso ainda possa ter "luta ás cegas" (só por ter "luta as cegas" o personagem não será um eximio lutador nessas condições)														
+OBS.: A única habilidade secundaria que anula esse tipo de penalidade é "mesclar-se as sombras", pois possui um treinanamento especial para agir nestas condições, porem caso esse mesmo lutador fiquei cego a penalidade volta a atingi-lo.														
+Desorientação														
+Implica tontura, embriagues, visão turva, audição ruim, sofreu tortura e etc.														
+A penalidade implica em -12 "atk/con" e "def"														
+Superficies incomuns														
+Implica em superficies extremamentes esburacadas, regioes de pântano, chao barrento, chão escorregadio e etc.														
+A penalidade implica em -8 "ATK/CON" e "DEF"														
+Pouca visibilidade ou visibilidade prejudicada														
+Implica eambiente nebuloso, com névoa, ambiente com chuva e etc.														
+implica em reduzir em -10"ATK/CON" e "DEF", caso tenha "luta ás cegas" a penalidade não é implicada.														
+Morte														
+quando o ATK/CON total realizar um dano que faça zerar o HP, acontece as seguintes coisas:														
+-Caso zere e o valor do "hp" chegue a "-5", o corpo cospe sangue ficando com grandes hemorrarias no corpo														
+-Caso o "hp" chegue a "-10" , o corpo perde um membro, braço ou perna somente, partes do membro tambem é encaixado nessa categoria.														
+-Caso chegue a "-15", o corpo perde um membro, braço ou perna somente, partes do membro também é encaixado nessa categoria.														
+-Caso o "hp" chegue a "-20", o corpo recebe um dano brutal, perde-se a cabeça e /ou a metade do corpo														
+-Caso o HP chegue a "-25", o corpo é esquartejado, ultrapassando esse valor o corpo é completamente feito em pedacinhos.														
+OBS.: Essa regra só é valida caso esse dano seja provocado de uma unica rodada. o personagem morre ao "-1" de hp														
+Ambiente Desfavoravel														
+Em casos de ventania, tempestades de areia , tornados e etc.														
+A penalidade é "-12" "ATK/CON" e "DEF", dependendo do momento pode ser retirado o mesmo valor do HP.														
+Penalidade por proteção total														
+Cada classe de lutador possui um valor de proteção total, caso o valor seja ultrapassado, cada 1 numero ultrapassado equivale a "-2" no ataque total, sabendo que o personagem pode abandonar os equipamentos/armas/armaduras/escudos no momeno que quiser, já para repor o armamento perde-se uma rodada de "ATK"														
+Envenenamento														
+Venenos costumam ter propriedades particulares cada um com efeitos especificos.														
+HP Zero														
+O personagem morre inevitavelmente no valor de "-3", porem o hp zero significa um "coma" o personagem fica na iminencia de morrer, caso seja tratado e seja feito um "teste fisico" (combate entre 6d mestre x personagem), o personagem pode sobreviver.														
+Testes Especiais														
+Testes são os combates entre os D"do jogador contra os do mestre, geralmente o teste é por exemplo a rodada de combate, "ATK e "DEF". Os testes especiais são os testes de força - "FOR", agilidade - "Agi", inteligência - "INT", e salto "sal", outros tambem como fisico, criatividade, percepção e etc, são usadas em raras ocasiões ou pra competição, onde normalmente o valor mais alto no D6 é o vencendor, o outro geralmente sofre alguma penalidade; "ATK" vs "CON" é um teste especial pois ambos sofrem a penalidade do ataque do outro.														
+Limite de equipamentos														
+O personagem pode carregar consigo até no màximo de 9 equipamentos pequenos;														
+O personagem pode carregar consigo no máximo de até 4 armas diferentes, armas que fazem par são contadas como uma; caso equipamentos e armas ultrassem esses numeros o personagem sofre penalidade por proteção total, armaduras, corveletes e etc, não contam.														
+Armas Danificadas														
+Ao utilizar um conjunto de armas e armaduras adimitie que a durabilidade delas em combate seja similar ao HP do dono, por exemplo, se o personagem luta e nesse combate alcaça o HP de até 35 a arma/armadura ainda pode ser concertada, caso chegue a 25-30 reduz a proteção do conjunto em "-5" caso chegue a 15-20 o conjunto ja esta praticamente inutilizado para proximos combates;														
+No curto prazo; a arma de ATK principal em uso pode ser destruida pelo poder ofensivo do oponente, eva-se em consideração a "proteção total + dados de def" = defesa total caso um atk do oponente chegue a 3 vezes o valor da defesa (com golpe especial ou nao) a arma é destruida, após isso a mesma regra vale para a armadura.														
+														
+														
+														
+														
+
+
+
+
+
+
+                                                        Skill																	
+Habilidade primaria		Habilidade particular que cada um desenvolve e descobre para o prorprio desenvolvimeno e jogabilidade.															
+São divididos por grupos:		Espirituais, armas, fisicos, psiquicos. 															
+São divididos nas categorias		Ofencivos, defensivos, especiais e medianos															
+																	
+Espirituais	Alma pura	Especial															
+	Permite ao personagem não ser influenciado por magias de controle mental ou ilusão por exemplo; torna imune tambem a skill que possuem em tipo de efeito; magias que envolvem espiritos como "possessão espiritual" não surtem efeito; após a morte o espirito desse personagem não pode ser controlada e nem mantida no plano elas encontrão o "descanço eterno" vivendo em paz. Esse efeito do skill só funciona caso o personagem tenha atitudes condizentes para tal.																
+	Defesas	Defensivo															
+	O personagem possui a habilidade sobre humana de criar um campo de força ou uma barreira de energia mistica capaz de defende-lo de ataques aumentando o poder de sua defesa.																
+	OBS: Admitem a criação de golpes especiais.																
+	Anti-Metamorfose	Especial															
+	Permite que o personagem seja resistencia a maldição da tranformação, quando estão sob influencia de alguma criatura para que o personagem seja transformado em vampiro, lobisomen, ghol, zumbi ou o que quer que seja, esse efeito funciona especificamente para essa ocasiões; esse efeito é aplicado ao caso de o personagem morrer, o corpo não pode ser transformado.																
+	Sensitivo	Especial															
+	O personagem possui grande intuição, uma sensibilidade extrema que lhe permite saber sobre coisas mesmo sem ter acesso a informção sobre elas. Ele sonha com coisas sobrenaturais que podem vir a acontecer, podendo escrever livros, pintar quadros, fazer esculturar por exemplo. Possui uma especie de sexto sentido, uma percepção extra-sensorial que beira a paranormalidade. Em alguns casos, com a permissão do mestre, o jogador pode tentar notar coisa que estão além dos sentidos normais, uma presença sobrenatural, um risco para sua vida ou até um objeto perdido, por exemplo.																
+	Funciona como "empatia", porém mais elevado.																
+	OBS: Em combate, 1v por luta, pode: esquivar de um "ATK"; defender um ataque de "invisibilidade" ou "teleporte"; como skill-defensivo; atacar o openete como skill-ofensvo.																
+	Sentir o mal e o bem	Especial															
+	Mais perceptivel que a "empatia", porem menos poderoso que "sensitivo"; o personagem pode perceber sensações vindas de terceiros, se os outros possuem intenções ruins ou boas, para perceber intenções mais entranhadas é necessario um " teste de percepção". um assassino talvez não consiga passar despercebido pelo personagem, já um demônio possa passar por ele caso tenha boas intenções, gira em torno das intenções e não do julgamento do personagem frente as situações.																
+	OBS: Não adimite criação de golpes especiais																
+	Canalizador	Especial															
+	O personagem é capaz de conctar sua propria essência vital a seus poderes e com isso pode drenar energia mistica de seu proprio corpo. é uma habilidade mágica extremamente rara e perigosa, que frequentemente leva à morte seu praticante.																
+	OBS: Esse skill possui 3 efeitos distintos, podendo utilizar um efeito 1v cada em combate.																
+	*Converte "hp" em "ATK/Con"		10 hp em +10 "atk/con"														
+	*coverte "magias não permanentes" em "atk/con"			1 magia em +10 ATK													
+	*Converte "magia não permanente" em "HP"			1 magia em +10 HP													
+	OBS²: O total de uso são 3v, usando 2v um efeito e 1 v outro efeito ou 3v o mesmo efeito																
+																	
+Armas 	Ambidestria	Mediano															
+	O personagem pode manusear armas e instrumentos tanto com a mão direita quanto com a esquerda com igual eficiência. Pode usar armas brancas ao mesmo tempo, se forem pequenas o bastante para seram manuseadas com uma mão, estão fora arcos, bestas, lanças e etc. O personagem torna-se especialista em combates com duas armas identicas.																
+	OBS.: Admite acrescimo durante todo o combate																
+	Percepção de movimentos 		Ofensivo														
+	Mediante ao intenso treinamento de armas, suas vantagens e desvantagens, e a habilidade inata do personagem com elas e no combate, o personagem se torna tão eficiente no combate que consegue quase que prever os golpes do oponente em seus contra-ataques e na sua defesa, de forma institiva. OBS.: Adimite acrescimo durante todo o combate.																
+	Previsão de Golpes		Defensivo														
+	Mediante ao intenso treinamento de armas, suas vantangens e desvantagens, e a habilidade inata do personagem com elas e no combate, o personagem se torna tão eficiente no combate que consegue quase que prever os golpes do oponente em seus ataques, de forma institiva, ele se defende de forma mais eficiente.																
+	OBS.: Adimite acrescimo durante todo o combate.																
+	Armas Leves e Especiais		Mediano														
+	O personagem possui um fisico propicio ao uso de armas leves e especiais, consegue ser mais agil e mais eficiente com esse tipo de classe de armas do que com os outros tipo, ou talvez seja apenas um treinamento mais intensivo com esse tipo de arma, mas no fim o personagem torna-se um especialisra nessas categorias de armas.																
+	OBS.: Adimite acrescimo durante todo o combate.																
+	Armas Pesadas e Escudos 		Mediano														
+	O personagem possui uma força mais desenvolvida do que os demais, seu fisico é mais propicio a armas mais mortais e desvatadoras, muitos não usam armas pesadas devido ao visual mais exótico, por serem mais pesadas e complicadas de empunhar, igualmente como os escudos que muita das vezes dificulta um ataque, porem diferente da maioria o personagem é especialista nesses tipo de armas.																
+	OBS.: Armas leves e especiais não são compativeis para serem usadas ao mesmo tempo, assim como armas pesadas e escudo, a exeção é a habilidade secundaria.																
+	OBS².: Adimite acrescimo durante todo o combate.																
+	Elemental Extra	Especial															
+	O personagem possui uma especie de "DOM", ele pula com fcilidade a energia derivada do corpo e do espirito em forma de elementos da natureza, esse "DOM" se estende a outro elemental.																
+	Em termos de jogo o personagem não so manipula o elemento respectivo ao seu corpo e espirito como tambem é capaz de manipular outro elemento como se fosse um skill, obdece as mesmas regras que o elemental apesar de ser skill.																
+	OBS.: Adimite criação de golpes especiais.																
+																	
+Fisicos	Cura	Especial															
+	O personagem possui a caacidade de se registrar, ele consegue se curar de ferimentos graves com certa facilidade, o seu fisico é muito mais preparado e resistente do que os dos outros; o personagem tambem pode curar os outros alem de si mesmo.																
+	Em termos de jogo, permite o personagem regenerar até 70 de HP em si mesmo, podendo dividir esses 70 em quantas vezes quiser ate completa-los, usando de manera unica ou dosada durante o combate; permite  regenerar nos outros até 30 de hp, de forma dosada ou inteira, podendo serutilizada 10 de hp 3 pessoas diferentes , por exempo.																
+	Resistir a Elementos		Defensivo														
+	O poder do elemental pode se manisfestar e uma pessoa pode utilizar um outro elemental que não seja o seu, esse poder pode se manifestar no corpo de uma outra forma tornando o corpo mais resistente aos elementos, a energia se manifesta defendendo o corpo ao inves de atacar ao outro; funciona como a habilidade secundria "resistencia a elemental", porem como skill 																
+	OBS.: Adimite acrescimo durante todo o combate.																
+	Sentidos Aguçados		Especial														
+	O personagem possui sentidos mais aguçados do que os outros personagens. Sua visão, audição, tato, olfato e paladar são muito mais desenvolvidos. em alguns casos pode ser pedido pra se fazer um "teste de percepção" pra certas situações.																
+	Força	Mediano															
+	O personagem possui um físico muscular incrivel, seus musculos são extremamente fortes e definidos, o corpo se torna uma arma poderosa e resistente; o personagem desenvolveu tanto o corpo que consegue despejar uma boa parte de seua força nos golpes e não so isso, o corpo é mais resistente do que um comum.																
+	OBS.: Admite acrescimo durante todo o combate.																
+	Velocidade	Mediano															
+	O personagem possui  um vigor incrivel, seu corpo possui uma agilidade fora do comum, seus reflexos são fenômenais consegue tanto atacar rapidamente quanto se defender o que lhe da bastante vantagem sobre os demais.																
+	OBS.: Adimite acrescimo durante todo o combate.																
+	Invisibilidade	Especial															
+	O personagem possui a incrivel capacidade de ficar invisivel, se mistura perfeitamente ao ambiente, nenhuma camuflagem ou subterfugio se compara a esse poder; pouco são os poderes que interferem nessa capacidade.																
+	OBS.: em combate pode ser usado como:																
+	*Esquiva																
+	*Como skill ofensivo																
+	*Anula a rodada de "ATK" do oponente no "con"																
+	*Anula a rodada de "DEF" do oponente no "ATK"																
+	OBS².: É utilizado 1v, apenas, por luta. Esse poder recebe restição sob "teleporte", "sensitivo", "telepatia", por exemplo.																
+																	
+Psiquicos	Telepatia	Especial															
+	O personagem possui o poder de se comunicar com os demais sem a necessidade da fala; Ele escuta vozes equivalete aos pensamentos dos outros, ele sabe exatamente no que o outro esta epnsando e tambem pode fazer com que seus pensamentos sejão escutados, permite tambem adiquirir uma certa resistencia para que outros telepatas não leiao seu pensamento, é feito um "teste de percepção" caso perca ele, o personagem, não percebe que sua mente foi invadida.																
+	OBS.: Em combate é utilizado 1v por luta, da seguinte forma:																
+	*Esquiva																
+	*Skill ofensivo, ou defensivo, ou mediano																
+	*Anula o "ATK" do oponente, na rodada de "con"																
+	*Anula a "DEF" do oponente na rodada de "ATK"																
+	Resistência a magia		Defensivo														
+	O personagem possui um controle mental muito intenso e desenvolveu uma certa resistência a magia, a magia afeta aos menos preparados para ela, diferente do personagem que faz com que a magia perca força contra ele de forma natural, funcionando conforme sua vontade; magias que aumentao o "ATK/CON" e/ou"def" ou que causem dano direto, ou que reduzem o "atk/con" e/ou a "def", ou personagem, ou que funcionam por rodadas contra o personagem, todas elas perdem "-2D6+7" no efeito(rolagem de dados); as demais magias surtem efeito no personagem.																
+	OBS.: A formula "-2D6+7" o +7 equivale ao skill defensivo																
+	Intangibilidade	Especial															
+	O poder que faz com que espiritos atravessem paredes, e o personagem também é capaz de ser feito, a mente do personagem é toão desenvolvida que ele consegue controlar o seu corpo de forma espetacular; dominando sua prórpia mente, o personagem é capaz de passar através de praticamente qualquer objeto; quanto mais evoluida é a mente maior é sau capacidade sobre o plano físico, a sua conciencia não esta tão ligada ao plano fisico, e pe sua própria concentração e força de vontade que o faz realizar tal feito.																
+	OBS.: em combate é utulizado 1v por luta, da seguinte forma																
+	*Esquiva																
+	*Anula o "ATK" do oponente, na rodada de "con"																
+	*Anula a "DEF" do oponente na rodada de "ATK"																
+	Detecção de magia		Especial														
+	O personagem sente a presença de material não-natural, ou residuos misticos em um objeto, criatura ou local. Pode tambem detectar a intesidade, distância e direção, porém com certa imprecisão. é uma habilidade muito rara e por isso o personagem corre um grande risco na "mão" dos inimigos etambem em supostos amigos. um mistico com tal poder seria extremamente poderoso.																
+	Comunicação em sonhos		Especial														
+	O personagem pode se comunicar enquanto dorme, com outras pessoas durante o sonho, mas a outra pessoa precisa estar dormindo. O personagem precisa de alguns instantes em transe até formar uma conexão. Não existe um limite de distância para a comunicação de sonhos. Não reques que a pessoa realmente entenda ou leve a serio a mensagem. Age de forma semelhante a telepatia, porém somente em sonhos.																
+	Teleporte	Especial															
+	O personagem tem a capacidade de se locomover de um ponto a outro em questão de instantes sem correr ou andar, se transportando com o poder da mente sobre o corpo, é uma habilidade muito rara que requer concentração, gera um pequeno estresse mental por um tempo , após o oato, mas permite um leque de possibilidades																
+	OBS.: Em combate é utuilizado uma vez por luta, da seguinte forma:																
+	*Esquiva																
+	*Anula o "ATK" do oponente, na rodada de "con"																
+	*Anula a "DEF" do oponente na rodada de "ATK"																
+	OBS.: gerais do skill																
+	Sensitivo, invisibilidade, telepatia, intangibilidade e teleporte adimitem a criação de golpes especiais																
+	OBS².: Invisibilidade, intangibilidade e teleporte, perdem o efeito de "anular" para sensitivo e telepatia																
+	*Sensitivo e telepatia funcionam normalmente contra o outro.																
+																	
+																	
+																	
+																	
+
+                                                                    Elemental	Todo ser é dotado de energia, possuindo o treinamento certo a energia proeminente, pode ser manifestada atraves de um elemento da natureza.														
+															
+Existem 5 elementos 		Relâmpago													
+		Fogo													
+		Agua													
+		Terra													
+		Ar													
+															
+	Relampago / Trovão / Raios														
+	Causa um efeito de "-8 HP" no inimigo														
+	Fogo / Faisca														
+	Causa um efeito de "-8 HP" no inimigo														
+	Agua / Torrente														
+	Causa um efeito de "-8 HP" no inimigo														
+	Terra / Areia														
+	Causa um efeito de "-4 HP" no inimigo e, "+4 DEF" na proxima rodada ou vice versa; ou "+8 ATK" ou "+8 DEF"														
+	Ar / Vento														
+	Causa um efeito de "+8 ATK"														
+															
+	OBS.: Cada elemento possui um efeito em combate de forma demonstrada, esse efeito utilizado no próprio combate acontece de maneira variada; a energia se manifesta em um elemento e o elemento própriamente dito reage de forma aleatoria ao personagem.														
+	--	O elemental adimite a criação de golpes especiais													
+	--	O elemental só pode ser usado 1v por luta													
+															
+															
+															
+															
+
+
+
+
+                                                            Desenvolvimentos de personagens - Mundanos e Misticos															
+															
+Mundanos	São os personagens comuns, termo para generalizar todos os personagens que não são magos, guardioês e monges, ou seja, são os : Ninjas, samurais, guerreiro, cavaleiro, caçador e assassino( das classes anteriores) e misticos para os outros.														
+															
+	O desenvolvimento é feito através da experiencia. O personagem que sobrevive a muitas aventuras, encontram muitas criaturas desconhecidas ou enfrenta muitos perigos tornam-se mais experientes com o tempo, adiquirem conhecimento e melhoras suas habilidades.														
+															
+	A experiencia é medida pelos seguintes fatores: o nivel que é "principiante, experiente veterando e mestre, por quantidade e qualidade das habilidades secundarias adiquiridos, e por tecnicas desenvolvidas.														
+															
+	O personagem inicia como um leigo, totalmente avulso, ignorante ao mundo que o cerca fora do trabalho, de casa, dos familiares e amigos. A mente do personagem esta limitada e praticamente sem conteudo, para que o personagem inicie como um "lutador" é pré requesito, obrigatorio, adiquirir pelo menos 50% dos dados preenchidos("outros dados" : fisico, criatividade, percepção, lógica, reflexo e conhecimentos gerais), ou seja, 15 quadrados preenchidos, não importa a distribuição do preenchimento; para ter esse requesito, depende apenas da jogabilidade do jogador para dispor o personagem para aprender a se desenvolver.														
+	O personagem só atinge o primeiro nivel - principiante, após o pré requesito, mais para que nada de importante seja perdido qualquer habilidade secundaria e/ou experiencia adiquirida por alguma campanha / aventura, é anotado e pode ser utilizada pelo jogador, por exemplo caso o personagem tenha aprendido sobre"historia" antes de cumprir o requesito, o jogador pode utilizar esse conhecimento do personagem, assim como uma arma tambem; caso o personagem ganhe experiencia, o quadrado dr nivel é preenchido e apos o requesito seja cumprido o personagem recebe o bonus de nivel e já possuira experiencia equivalente ao nivel.														
+															
+	o personagem so pode desenvolver golpes especiais após alcancar o proximo nivel, ele aprende ou desenvolve tecnicas de golpes especiais se sair do ("nivel") leigo para o principiante, apoes isso ele aprende ou desenvolve as tecnicas, depois desso ele só podera aprender ou desenvolver as tecnicas novas ou antigas de passar para o proximo nivel.														
+	O personagem ganha experiencia atraves das aventuras, lutas e outras coisas, tudo a cargo do mestre														
+	O personagem pode aprender habilidades, desenvolver tecnicas e aprender tecnicas														
+	O desenvolvimento de personagens mundanos e misticos são de forma diferentes , porem parecidas.														
+															
+															
+															
+															Desenvolvimento na pratica								
+								
+-Desenvolvimento Mundano								
+*Nivel 1	Principiante							
+	ATK	DEF	CON	HP/PV	Especial	Habilidade Sec.		
+	+1D6	+1D6	+1D6	60+40=100	+ 3 pont's	+ 5 pont's		
+								
+*Nivel 2	Experiente							
+	ATK	DEF	CON	HP/PV	Especial	Habilidade Sec.		
+	+1D6 + 1D6	+1D6 + 1D6	+1D6 + 1D6	100+20	3 + 3 pont's	5 + 5 pont's		
+								
+*Nivel 3	Veterano							
+	ATK	DEF	CON	HP/PV	Especial	Habilidade Sec.		
+	+2D6 + 1D6	+2D6 + 1D6	+2D6 + 1D6	120+20	6 + 3 pont's	10 + 5 pont's		
+								
+*Nivel 4	Mestre							
+	ATK	DEF	CON	HP/PV	Especial	Habilidade Sec.		
+	+3D6 + 1D6	+3D6 + 1D6	+3D6 + 1D6	140+20	9 + 3 pont's	15 + 5 pont's		
+								
+	Resumo							
+	ATK	DEF	CON	HP/PV	Especial	Habilidade Sec.		
+N-I	1D6	1D6	1D6	100	3 pontos	5 pontos		
+N-II	2D6	2D6	2D6	120	6 pontos	10 pontos		
+N-III	3D6	3D6	3D6	140	9 pontos	15 pontos		
+N-IV	4D6	4D6	4D6	160	12 pontos	20 pontos		
+Total								
+								
+								
+-Desenvolvimento Mistico								
+*Nivel 1	Principiante							
+	ATK	DEF	CON	HP/PV	Especial	Habilidade Sec.		
+	+1D6	+1D6	+1D6	60+40=100	+ 3 pont's	+ 5 pont's		
+								
+*Nivel 2	Experiente							
+	ATK	DEF	CON	HP/PV	Especial	Habilidade Sec.		
+	+1D6 + 1D6	+1D6 + 1D6	+1D6 + 1D6	100+20	3 + 2 pont's	5 + 4 pont's		
+								
+*Nivel 3	Veterano							
+	ATK	DEF	CON	HP/PV	Especial	Habilidade Sec.		
+	+2D6 + 1D6	+2D6 + 1D6	+2D6 + 1D6	120+20	5 + 1 pont's	9 + 4 pont's		
+								
+*Nivel 4	Mestre							
+	ATK	DEF	CON	HP/PV	Especial	Habilidade Sec.		
+	+3D6 + 1D6	+3D6 + 1D6	+3D6 + 1D6	140+20	6 + 2 pont's	13 + 4 pont's		
+								
+	Resumo							
+	ATK	DEF	CON	HP/PV	Especial	Habilidade Sec.		
+N-I	1D6	1D6	1D6	100	3 pontos	5 pontos		
+N-II	2D6	2D6	2D6	120	5 pontos	9 pontos		
+N-III	3D6	3D6	3D6	140	6 pontos	13 pontos		
+N-IV	4D6	4D6	4D6	160	8 pontos	17 pontos		
+Total								
+								
+								
+								Golpes Especiais											
+											
+- Especial	Todo personagem recebe pontos de especial quando pasa de nivel. O especial representa o quão poderoso o personagem é. Durante o combate os personagens usam armas, magias, equipamentos, habilidades secundarias, elemntal e skill, mas será que isso é o bastante para enfrentar um oponente? Muitos acreditam que não e por isso desenvolvem um "algo" a mais. As técnicas de combate mais avançados e poderosas de um lutador.										
+	Os golpes Especiais podem ser desenvolvidor de varias formas, feitos atraves de um esforço maior do lutador durante um combate, ou pelo skill, ou pelo elemental, ou simplesmente um ataque mais preciso do que o comum, todas essas formas necessitam dos pontos ganhados quando se passa de nivel, podendo adiquirir varios efeitos dependendo da forma que for aplicado.										
+	Os personagens mundanos possuem vantagens no desenvolvimento de golpes especiais, compardo aos misticos que recebem menos pontos, porem essa diferença é superada pelo fato de que os misticos possuem magias poderosas e que diferente dos mundanos os misticos recembem uma bonificação na criação de golpes especiais alem de que os  golpes especiais dos misticos são pareceidos com magia.										
+	Existem varias formas de criar um golpe especial e aprender um tembem é possivel, mas para isso é necessario a aplicação do "ponto de especial", a cada ponto de especial aplicado é necessario 100 hs de treinamento, para desenvolver um golpe especial é necessario fazer o preenchimento dos quandors "fisico", "criatividade","logica" e "reflexo", com os 20 quadrados preenchidos equivalem a 100hs, a cada -4 quadrados preenchidos equivalem a 100hs, a cada -4 quadrados preenchidos é acrescentado mais 2hs no total, lembrando que é necessario pelo menos 10hs de descanço e aumentar a concentração no treinamento.										
+											
+											
+Desenvolvimento de golpes especiais											
+*nivel 1 - principiante	Para a criação do golpe é aplicado 1 ponto, por exemplo:										
+	Criação basica do golpe	Ex.:									
+		5+1D6	o valor alcançado é de 6 até 11								
+		Base do golpe referente ao nivel principiante									
+		1 ponto equeivale a essa formula no nivel 1									
+											
+		Obs.: Os golpes podem ser tanto para "ATK quando para "DEF", pode ser exclusivamente para "CON", apesar de que golpes desenvolvidos para "ATK" podem ser udados para "CON" também;									
+		OBS².: 1 ponto equivale a um golpe "5+1D6", o "1D6" é um valor fixo que sera anexado ao "5"; Após a aplicação de 1 ponto, ainda resta 2 pontos, os outros podem ser usados da seguinte forma:									
+			Desenvolver mais 2 golpes especiais ou;								
+			Utilizados da seguinte forma:								
+											
+											
+	 Golpe especial por rodadas	Ex.:									
+		5+1D6	+ 1 ponto								
+		1 ponto usado anteriormente	Esse +1 ponto equivale a 1d6 rodadas								
+											
+		Ou seja o personagem desenvolveu um golpe especial que acrescente de 6 a 11, no "ATK/CON" ou na "DEF", durante 1d6 rodadas, essas rodadas são aleatorias, o dado é rolado no momento do combate para definir o tempo de duração desse poder extra; nada impede que durante essas rodadas o personagem utilize um outreo golpe especial em cima desse, apos isso ainda resta 1 ponto.									
+											
+	Golpe especial elemental	Ex.:									
+		5+1D6	+ 1 ponto								
+		1 ponto usado anteriormente	Esse ponto será referente ao elemental								
+											
+		5+1D6 + Elemental									
+		Esse conjunto equivale a 2 pontos assim como o "especial por rodadas"; o uso do "Elemental" no golpe especial recebe uma "quebra", possuindo seus próprios efeitos adicionais; nada impede do jogador acrescentar +1 ponto para colocar o "especial elemental" po rodada;									
+											
+											
+	Golpe especial Skill	Ex.:									
+		5+1D6	+ 1 ponto								
+		1 ponto usado anteriormente	Esse ponto será referente ao elemental, de forma similar, porém com o skill; A "quebra" é feita de forma normal e adicionada								
+											
+		5+1D6 + skill									
+		O skill que se encaixa nessa categoria são os "ofensivos", "defensivos", "medianos" e os "especiais "que adimitem a criação de golpes especiaias funcionando como "ofensivos", "defensivos" e "medianos"; assim como o "golpe esepecial elementar", pode-se acrescentar +1 ponto para colocar, por rodada;									
+											
+											
+	Golpe Especial Skill-Elemental	Ex.:									
+		5+1D6	+ 2 pontos								
+		1 ponto usado anteriormente	Esses dois pontos são o acrescimo do skill com elemnetal, a soma é feita individualmente sem reduzir nada.								
+											
+		5+1D6 + skill + Elemental									
+		Tanto o skill quanto o elemental recebe a "quebra" e são somados									
+											
+											
+	Replicar Especial	Acontece quando o personagem aprende algum golpe especial									
+		Ex.: O personagem que é da classe cavaleiro pode aprender o golpe especial "Ataque Rasgante" usado 1v, somando "+11 ATK/CON" logo:									
+											
+		+11 ATK/CON									
+		5+1D6	1 ponto								
+		5+6=11	no ATK/CON								
+											
+		O 1 ponto representa muitas coisas, no caso em questão significa que 1 ponto foi aplicado para aprender o golpe de nivel - principiante, é um golpe especial da classe; a aplicação desse mesmo 1 ponto tambem significa que ele só pode ser usado 1 vez; foi aplicado para ser usado no "ATK/CON";									
+		Alguns outros obedecem a um pensamento diferente, por exemplo, na classe guerreiro possui o golpe especial "concentrar a força" e "defender"; "concentrar a forca" é usado 2 vezes, somando +11 "ATK/CON", não significa que é de nivel 2, mas pode ser aprendido 2 vezes, e tabem pode se tornar de nivel 2.									
+		Basicamente p replica funciona para aprender, sabendo disso ela funciona assim:									
+		base do nivel + 1d6		sendo assim a replica copia o valor tirado no d6, o "Ataque Rasgante" por exemplo significa que a primeira pessoa que desenvolveu esse golpe tirou no "1d6" o valor de "6" somando 6+5, ou seja, 5 base do nivel + 6 da rolagem do "1d6"; é uma tecnica que foi passada por tradiçãp, funciona assim para qualquer golpe aprendido; caso fosse em outro nivel a base de nivel seria diferente; caso o personagem que aprende esteja no nivel superior, comparado ao golpe, ao inves de pagar 1 ponto para replicar, ele pagará 2 pontos, na verdade ele pagara pontos referente ao nivel que esteja, por exemplo, o personagem está no nivel 2 - experiente, a base de nivel é "10", se ele quiser aprender o "ataque rasgante" em que a base é "5", ele pagará 2 pontos, e passará para:							
+		1 ponto									
+											
+				ex.: base de nivel + 1d6							
+				ataque rasgante		base de nivel + 1D6					
+				5+6=11		ataque rasgante					
+				usado 1 vez		10+6=16					
+				pois foi pago 1 ponto		usado 2 vezes,					
+						pois foi pago 2 pontos					
+											
+		O valor "6" repete pois foi replicado, é assim que funciona									
+		Caso o personagem queira aprender um golpe de nivelsuperior ao dele, ele pagará 1 ponto normalmente, o valor do "d6" é replicado e a base será equivalente ao do personagem;									
+		Resumidamente se paga 1 ponto para copiar o valor do "d6"									
+		Aprender um golpe de nivel inferior é um sistema de pontos identico a outra possibilidade de desenvolviento de golpes especiais chamada "dobrar"									
+											
+											
+Nivel 2 Experiente	O sistema é identico ao do nivel 1, porem com acrescimo	Criação basica									
+		10 + 1D6	O valor alcançado é de 11 a 16								
+		Base de nivel	valor fixo								
+		1 ponto									
+											
+		OBS³.: O sistema é identico ao do nivel 1:"Golpe Basico", "golpe por rodadas", "golpe com elemental", "golpe com skill", "golpe comskill e elemental" e "replicar", todos identicos, mudando pe claro a base de nivel que é igual a "10" no "experiente"									
+											
+	Dobrar Especial	O personagem treina para poder desenvolver um golpe especial, porem com os pontos que ele ganha pode aplica-los de varias formas, porem só pode usar 1 vez os golpes que possui, quando ele passa de nivel, ele recebe uma outra opção, desenvolver um golpe que já possui, aprimorar um golpe ja criado, funciona de forma parecida com "replicar especial", a diferença é que não é para aprender golpes e sim para melhora-los; exemplo:									
+											
+		Base de nivel +1D6		=>	5+1d6	usado uma vez					
+		1 ponto			nivel anterior	+ 1 ponto					
+		OBS4:	O valor fixo é repetido								
+					10+1D6	usado 2 vezes					
+					nivel atual						
+											
+		Na pratica funciona exatamente como o "replicar especial", quando se replica um golpe inferior, só que na replica é utilizado de forma a pagar 2 pontos, por exemplo, de uma unica vez, já no "dobrar" é pago 1 ponto por nivel no mesmo golpe especial, digamos assim, o dobrar pode ser usado para melhorar e aumentar o numero de vezes que golpe pode ser usado, não podendo ultrapssar a base do nivel para ir pra base do nivel seguinte.									
+											
+	Golpe especial com rodadas - diversificado	É possivel dobrar um golpe com rodadas, age da seguinte forma:									
+		* Acrescenta-se +1 para aumentar o numero de rodadas									
+		ex.:	5+1d6 por 1d6 } +1 ponto = 5 + 1d6 por 2D6 rodadas								
+											
+		* Acrescenta-se +1 ponto para dobrar o golpe propriamente dito.									
+		Ex.:	5+1d6 por 1d6 rodadas} +1 ponto = 10+1d6 por 1d6 rodadas								
+											
+		*Acrescenta-se +1 ponto para direcionar o bonus; Geralmente o golpe é para o "ATK/CON" ou a "DEF", no caso de golpes por rodada pode-se acrescentar para o "ATK/CON" e a "DEF" também, por exemplo:									
+		5+1 por rodadas } 2 pontos usados									
+		para o "ATK/CON"									
+		+ 1 ponto									
+											
+		5+1 para o "ATK/CON" } por 1d6 rodadas									
+		5+1 para a "DEF"									
+		3 pontos utilizados no total									
+											
+		OBS: para dobrar o ataque completo é pago 1 ponto individualmente									
+											
+Nivel 3 - veterano	identico aos outros niveis.										
+	Golpe especial basico	15+1d6 - valor alcançado de 16 a 21									
+		1 ponto									
+		OBS:	golpe basico								
+			golpe especial por rodadas								
+			golpe especial elemental 								
+			golpe especial skill 								
+			golpe especial skill elemental								
+			replicar especial								
+			dobrar especial								
+			golpe especial por rodadas diversificadas								
+											
+		todos os outros sistemas funcionam da mesma forma em proporção ao nivel									
+											
+Nivel 4 - mestre	identico aos outros niveis.										
+	Golpe basico especial	20+1d6 - valor alcançado de 21 a 26									
+		1 ponto									
+											
+		todos os outros sistemas funcionam da mesma forma em proporção ao nivel									
+											
+		OBS6: No caso do "Golpe especial por rodadas - diversificada" cada conjunto é posto ponto separadamente, por isso pode ser posto ponto de forma a ser tratado individualemnte.									
+		OBS7: 1 ponto pode significar varias coisas, como por exemplo, que o golpe foi dobrado varias vezes, ou que desenvolveu outras possibilidades dentro do mesmo golpe, no caso de duvida da sua aplicação consulte o mestre.									
+		OBS8: Existem certos "golpes especiais" que estam em uma categoria diferenciada, por exemplo "esquiva", que pode ser apenas "replicado" ou "dobrado", nesse caso, o jogador pode usar quantos pontos quiser pra dobrar a "esquiva", ja que não é presa a nivel; é possivel que um personagem nivel 2 tenha utilizado 6 pontos em "esquiva", assim ele teria "esquiva 6v"									
+		OBS9: Existem tambem " golpes especiais" que rebatem ou dissipam energia lançadas contra o personagem, ou que aumentam os pontos de "ATK" após uma "DEF" e etc, todos desses tipos somente podem ser "replicados" em termos de jogo.									
+											
+											
+											
+											
+											
+											
+											Proteção	OBS.: Os misticos possuem o desenvolvimento de golpes especiais idensticos aos mundanos, porem sua pontuação de especial é reduzida, pois eles ganham uma compesação nos golpes especiais.															
+																
+																
+-	Os misticos possuem a capaciadade de criar magias como golpes especiais;															
+	fica a cargo do mestre autorizar certas criações.															
+																
+-	Os misticos a partir do nivel-experiente podem escolher um "Adicional" aos Golpes Especiais.															
+																
+Adiciionais - Monges																
+																
+*Adicional	+4 em dano para golpes															
+*Adicional	rodada extra em 1d6; só pode ser adicionado a rodada extra de ...															
+																
+*Adicional	Efeito fantasma; reduz o 'ATK/CON' ou DEF do oponente															
+	permite a criação de golpes especiais com esse efeito de redução; a redução é de "-3"															
+*Abençoar armas	Contra criaturas poe 1d6 rodadas															
+	permite a criação de golpes com esse efeito, o adicional é de "+3"/ caso seja assassino funciona pra qualquer raça ATK/DEF															
+																
+Adicionais - Guardiões																
+																
+*Magia Elementais		Permite criar golpes especiais de elementais, são de base; são de base 10, podem ser dobrados, mas a base não muda; gasta-se 1 ponto adicional no total para golpes especiais com elemntal a escolha.														
+Encantar armas	contra qualqer raca 'por 1d6 rodadas															
+	permite a criação de golpes com esse efeito, o adicional é de "+3" ATK/DEF															
+																
+Regeneração	Adicionado, pode regenerr 1d6 (6 em 6 rod)															
+Proteção Magica	Permite um acrescimo de "+2 def" por 1d6															
+																
+Adicionais - Magos																
+																
+Rajadas de magias	adicional de +4 em dano															
+Regenerar	adicionado, pode regenerar 1d6 (6 em 6 ROD)															
+Adicional rodada extra em 1d6; so pode ser adicionada a rodada extra																
+Enfeitiçar arma	contra qualquer raça, por 1d6 rodadas, permite a criação de golpes com esse efeito; o adicional é de "+3" ATK/DEF															
+	OBS.: Os adicionas só podem ser udados mediante a utilização de 2 pontos ja aplicados, sendo assim o adicional só pode ser usado, 1 adicional - não impota em qual golpe, que nao seja magia - por nivel.															
+																
+																
+	Resumo em Observação															
+																
+	Skill															
+																
+	Ofensivos	Acrescentam no "ATK/CON", no valor de "+7"														
+	Defensivos	Acrescentam no "DEF", no valor de "+7"														
+	Medianos	Acrescentam no "ATK/CON" e na "DEF", no valor de "+5"														
+	Especiais	Utilizados de forma variada; durante o jogo dependendo de que poder, e com a autorização do mestre, pode ser utilizado no maximo 3 vezes por sessão de jogo, a pedido do jogador, isto fora de combate;														
+																
+	Elemental															
+																
+	Acrescenta geralmente um valor relacionafo a "8", no ataque, defesa, no dano ou em ataque e defesa seguidamente de "4"															
+																
+	Quebra de Skill															
+	ao adicionar o skill a um golpe especial o valor de "+7", por exemplo, é muito pois por mais que o personagem seja bom no uso do skill; na utilização dele no golpe o personagem faz um esforço muito maior para despejar um golpe poderoso sobre o oponente, logo ele mesmo perde um pouco de controle e concentração, a partir disso o skill sofre uma "quebra", uma redução, ele passa a valer "+5", no caso dos skill-medianos que acrescentam "+5" normalmente, a "quebra" passa a ser "+5" tembem; no caso o golpe passa a ser:															
+	ex.:	5	+ 	1d6	+	5										
+		base de nivel		valor fixo		skill										
+																
+	Quebra Elemental															
+																
+	Da mesma forma que o skill soifre uma quebra; o elemental possui efeitos particulares ao se encaixarem no golpe especial; o valor gira em torno de "4"															
+		Relampago														
+		+4 de dano ou +4 em DEF														
+		Fogo														
+		+4 de dano ou +4 em ATK														
+		Agua														
+		-4 no atk inimigo ou +4 em DEF														
+		Terra														
+		-4 no atk inimigo ou +4 em CON														
+		AR														
+		-4 no atk inimigo ou +4 em ATK														
+																
+		OBS.: Esses valores significam que o personagem esta desenvolvendo o controle do elemento; o elemento se manisfesta de forma variada ao passe de beneficiar o personagem														
+																
+	Elemental nivel 2															
+																
+	O nivel 2 do elemental é um nivel em que o personagem está mais preparado para o seu proprio poder, ele controla de forma mais eficiente sua energia; o elemental se manisfesta de forma mais consistente nesse nivel															
+	Na quebra de elemental, o nivel 2, recebe no golpe especial o valor integral de "8", podendo assumir qualquer efeito, soma de "ATK/CON", ou de "DEF", redução, ou tambem infligir dano no HP.															
+	Somente o personagem assassino pode utilizar esse beneficio ja no nivel principiante, os demais, somente a partir do nivel veterano; para o desenvolvimento do persongaem para esse beneficio é obrigatorio que ele faça um treinamento equipvalente ao de um golpe especial.															
+	Os efeitos são mais consistentes, o personagem realmente pode lançar bolas de fogo por exemplo															
+	No caso da quebra de nivel 1, fica a cargo do jogador optar para converter ( no caso: agua, terra ou ar), a redução do atk inimigo para somar ao seu atk ou permanecer a redução de atk, na rodada de contra-ataque ou no proximo atk do oponente															
+	sendo o elemental de nivel 2 , o personagem pode utilizar o elemental 2 vezes durante o combate															
+																
+																
+																
+																
+																
+																
+																
+																																
+					Cidades simples	A população é mais humilde, assim  como a cidade										
+					Orion											
+					Bellatrix											
+					Tres Reis Magos											
+					Draco											
+					Deneb											
+					Antares											
+						São cidades mais antigas, mesmo os mais velhos não sabem exatamente, além de especulações e boatos, sobre a formação do território e o total exploramento da cidade, por serem as mais antigas são muito conhecidas, possuem grande desenvolvimento em agricultura e pecuaria.										
+																
+																
+					Cidades modernas	A população é mais atualizada e nobre										
+					Rigel											
+					Saiph											
+					Vega											
+					Cassopeia											
+					Crux											
+					Sirius											
+					Scorpio											
+						São cidades mais novas, foram criadas mais recentemente, as familias mais nobres moram nessas ciadades, muitos empregos pois é movida peas mercadorias										
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																Parte 1													
+Não se sabe ao certo, o presente é o fato que o mundo esta impregnado com uma essencia que chamam de "peste", animais selvagens podem se tornar nocivos para a "saude" de um personagem, para os que são viajantes, esses sim sabem que pelas sombras das arvores, no interios do mar, da superficie das campinas e principalmente nos lugares mais distantes, obscuros e no meio das cidades, estão as mais terriveis das criaturas...													
+os lutadores mais experientes, e os mais sabios e antigos que sobreviveram a aparições de criaturas as classificaram como pelo seu poder, sua aparencia e diversos tipos de aparições, todas divididas por classe, raça e categoria.													
+													
+													
+													
+CLasse E	principiantes												
+													
+Zumbi		Humano comum		SKILL: atacar, +7 (ofensivo)									
+ATK	DEF	CON	HP/PV	GOLPES	Atacar(+12 por 1D6 rodadas) 1v								
+1D	1D	1D	100										
+OBS.: Armamento opcional													
+													
+Esqueletos		Humano comum		SKILL: atacar, +7 (ofensivo)									
+ATK	DEF	CON	HP/PV	GOLPES	Atacar(+12 ATK/CON por 1D6 rod) 1v								
+1D	1D	1D	100										
+OBS.: Armamento opcional													
+													
+Ghoul		Humano comum		SKILL: atacar e defender, +5 (mediano)									
+ATK	DEF	CON	HP/PV	GOLPES	Atacar(+8 ATK/CON por 1D6 rod) 1v								
+1D	1D	1D	100	Ataque	+7 ATK/CON								
+OBS.: Armamento opcional													
+													
+Esqueletos, Zumbis, Ghouls são corpos carcomidos, geralmente, que se levantes de suas tumbas, corpos encantados por algum tipo de ritual ou infectados de alguma forma; o corpo passa a existir sob os comandos do seu criador, eles não necessitam descançar, se alimentar ou dormir, incapazes de se comunicar com qualquer pessoa que nao seja o seu criador.													
+													
+Servo de Vampiro		Humano comum		SKILL: regenerar 1d6 de hp									
+ATK	DEF	CON	HP/PV	GOLPES	Ataque forte (+8 ATK/CON por rod.)1v								
+1D	1D	1D	100	Defender	+6 DEF								
+OBS.: Armamento opcional													
+													
+Servo de lobisomem		Humano comum		SKILL: Força (+5-mediano)									
+ATK	DEF	CON	HP/PV	GOLPES	Ataque (+14ATK/CON por 1d6 rod)								
+1D	1D	1D	100										
+OBS.: Armamento opcional													
+													
+Os servos são criaturas que obedecem a um mestre, normalmente são humanos transformados em mestiços de alguma forma, sao bem mais fortes que um humano comum													
+													
+Demonios Menores		Demônio		SKILL: variado as vezes até duas skill									
+ATK	DEF	CON	HP/PV	GOLPES	esquiva 1v; ataque(+7 atk/con)1v								
+1D	1D	1D	100	defesa	(+8DEF)1v								
+OBS.: Armamento opcional													
+													
+OBS: O skill pode variar entre: "telepatia", comuniocação em onhos, detecção de magia, resistencia a magia, resistir a elementos, disfarce													
+OBS² Armamento opcional													
+													
+São demonions de estatura mediana, podem até se disfarcar de humanos as vezes, mas por pouco tempo; são bem jovens e por isso possuem uma mentalidade um pouco infantil;													
+													
+													
+CLasse D	experientes												
+													
+Nessa classe as criaturas são variadas, costumam ser bestas e monstros quase humanoides, são bem fortes porem sem muita independencia e inteligencia.													
+													
+Guaibasaurus		Dinossauro mutante		SKILL: velocidade (+5 - mediano)									
+ATK	DEF	CON	HP/PV	GOLPES	defender(+8 def)1v; esquiva 1v								
+2D	2D	2D	120	ataque	(+ 18 atk/con por 1d6 rod)2v; mordida(+11atk)1v								
+OBS.: Sem armamento - garras +4atk													
+													
+Unaysaurus		Dinossauro mutante		SKILL: força (+5 - mediano)									
+ATK	DEF	CON	HP/PV	GOLPES	defender(+13 def)1v; mordida(+16atk)1v								
+2D	2D	2D	120	ataque	(+ 20 atk/con por 1d6 rod)2v 								
+OBS.: Sem armamento - garras +4atk													
+													
+Muitos misterios giram em torno dessas criaturas													
+													
+Lagarto humanoide		Lagarto mutante		SKILL: pele resistente (+7 def)									
+ATK	DEF	CON	HP/PV	GOLPES	defender(+13 def)1v; grande defesa(+18)1v								
+2D	2D	2D	120	ataque	(+ 6 atk/con por 1d6 rod)1v 								
+OBS.: Sem armamento - garras +3atk													
+													
+Peixe Azul Humanoide		Peixe Mutante		SKILL: jato de agua (+7 atk) elemento agua									
+ATK	DEF	CON	HP/PV	GOLPES	atacar (+6atk)3v;								
+2D	2D	2D	120	jato de agua	(+ 18 atk/con e -4atk/inimigo)1v 								
+OBS.: Sem armamento													
+													
+Peixe Gyojin		Peixe Mutante		SKILL: jato de agua (+7 atk) elemento agua									
+ATK	DEF	CON	HP/PV	GOLPES	atacar (+7atk)1v; morder(+8atk)1v; bater (+9atk)1v								
+2D	2D	2D	120	jato de agua	(+ 23 atk/con)1v 								
+OBS.: Sem armamento													
+													
+Mutante Aquatico		Peixe Mutante		SKILL: Raio / elemento agua									
+ATK	DEF	CON	HP/PV	GOLPES	defender (+7def)1v; bater(+8 atk)1v;								
+2D	2D	2D	120	ataque de agua	(+ 14 atk)1v, ataque eletrico (+14atk e +4 de dano)1v								
+OBS.: Sem armamento													
+													
+Lobo Monstro		Lobo Mutante		SKILL: Super visão element : ar									
+ATK	DEF	CON	HP/PV	GOLPES	poder de ataque(+12atk por 2d6 rod)2v;								
+2D	2D	2D	120	velocidade	(+ 19 atk/con)1v 								
+OBS.: Sem armamento - garras +3atk													
+													
+Lobo Monstro		Lobo Mutante		SKILL: Super visão element : ar									
+ATK	DEF	CON	HP/PV	GOLPES	poder de ataque(+12atk por 2d6 rod)2v;								
+2D	2D	2D	120	velocidade	(+ 19 atk/con)1v 								
+OBS.: Sem armamento - garras +3atk													
+													
+Tartaruga mutante		Tartaruga mutante		SKILL: casco(+7def) element: agua									
+ATK	DEF	CON	HP/PV	GOLPES	bater (+9atk)1v; atacar (+10 atk por 1d6)1v								
+2D	2D	2D	120	ataque poderoso	(+24atk)1v								
+OBS.: Sem armamento - garras +4atk													
+													
+Serpente voadora		Serpente mutante		SKILL: veneno(-17hp)1v element: ar									
+ATK	DEF	CON	HP/PV	GOLPES	esquiva 3v; ataque(+18atk por 1d6)1v								
+2D	2D	2D	120										
+OBS.: Sem armamento - presas +3atk													
+													
+Centopeia gigante		Inseto mutante		SKILL: veneno(-15hp)1v element: terra									
+ATK	DEF	CON	HP/PV	GOLPES	esquiva 4v; ataque(+16atk por 1d6)1v								
+2D	2D	2D	120										
+OBS.: Sem armamento - presas +2atk													
+													
+Aranha Humanoide		Inseto mutante		SKILL: velocidade(-5 atk/def)1v element: ar									
+ATK	DEF	CON	HP/PV	GOLPES	esquiva 3v; ataque(+24atk)1v								
+2D	2D	2D	120										
+OBS.: Sem armamento - pele resistente +3 def													
+													
+Fantasma Maligno		fantasma		SKILL: intagibilidade element : fogo									
+ATK	DEF	CON	HP/PV	GOLPES	Ataque ( atk+9)1v; Esquiva 2v; Ataque de Fogo(+17atk)1v								
+2D	2D	2D	120	Garras(+16 atk) 1v									
+OBS.: Sem armamento - pele necrosada +4def, garras +4 atk													
+fantasma de uma criatura desconhecida, aparência horripilante													
+													
+Moriphen		Demônio		SKILL: Teleport element : ar									
+ATK	DEF	CON	HP/PV	GOLPES	Esquiva 3v; (+20 atk por 1d6 rod)1v								
+2D	2D	2D	120	Garras(+16 atk) 1v									
+OBS.: Sem armamento - pele resistente +3def, garras +5 atk													
+Um demônio com bracos longos, garras e navalhas afiadas													
+													
+Zumbi de Fogo		zumbi		SKILL: Element resistencia element : Fogo									
+ATK	DEF	CON	HP/PV	GOLPES	Ataque de fogo(+10 atk e +4dano)1v; esquiva 1v								
+2D	2D	2D	120	Atacar (+15 atk)1v; ataque com fogo(+16 atk +4dano)1v									
+OBS: Sem armamento - resistir a golpes +3 DEF, garras +5 atk													
+Zumbi demônio coberto de fumaça exalada do corpo													
+													
+Ogro de um olho		ogro		SKILL: Golpear +7ATK element : Terra									
+ATK	DEF	CON	HP/PV	GOLPES	Atacar(+7atk)1v; ataque forte (+10 atk por 1d6)1v								
+2D	2D	2D	120	Defender(+13 def por 1d6)1v; ataque mais forte(+16 atk)1v									
+OBS: sem armamento - pele resistente +5 def,													
+Ogro azul de apenas um olho 2 chifres													
+													
+Esqueleto Maligno		Esqueleto		SKILL: resistencia a element element : ar									
+ATK	DEF	CON	HP/PV	GOLPES	ataque de ar(+9atk e -4atk inimigo por 1d6)1v								
+2D	2D	2D	120	ataque turbilhao (+15 atk e -4atk ini. por 1d6)1v									
+OBS: sem armamento - carcaça +4 def, garras +6 atk													
+													
+Zumbi pirata		Zumbi		SKILL: atacar +7 atk element : terra									
+ATK	DEF	CON	HP/PV	GOLPES	Defender (+9 def)1v; atacar(+18 con)2v								
+2D	2D	2D	120	ataque(+15 atk por 1d6)1v									
+													
+													
+Monstro Palhaço		Monstro-Mago											
+ATK	DEF	CON	HP/PV										
+2D	2D	2D	120										
+Skill:	atacar +7 atk												
+Element:	fogo												
+Golpe:	Magia	"energia secreta"											
+		"campo de força da esc."											
+		Ataque Mágico(+14atk-adi +4dano)1v											
+		esquiva 2v											
+OBS: 	Sem armamento												
+	roupa especial +4 def												
+													
+													
+Guerreiro de Espadas		Demônio-Guerreiro											
+ATK	DEF	CON	HP/PV										
+2D	2D	2D	120										
+Skill:	atacar +7 atk												
+Element:	fogo												
+Golpe:	esquiva 1v												
+	defender (+9 def) 2v												
+	concentrar a força (+11 atk) 1v												
+	espada com fogo (+19atk por 1d6)1v												
+OBS: 	Aramdura simples+11 def												
+	sabre +4atk												
+													
+													
+Besta de duas faces		besta											
+ATK	DEF	CON	HP/PV										
+2D	2D	2D	120										
+Skill:	corpo +5 atk/def												
+Element:	Terra												
+Golpe:		esquiva 2v											
+		atacar(+10 atk)1v											
+		defender(+15def)1v											
+		ataque forte(+16ATK POR 1D6)1V											
+OBS: 	Sem armamento												
+	pele resistente +8 def												
+	transformar braço em espada + 10atk												
+	besta azul estremamenteperigosa e cruel												
+													
+Gigante ciclop zumbi		zumbi		SKILL:  corpo +5atk/def element : terra									
+ATK	DEF	CON	HP/PV	GOLPES	ataque(+11atk)2v	defender(+10def)1v							
+2D	2D	2D	120	ataque poderoso(+20 atk por id6 rod) 1v									
+corpo resistente +10 def, garras +10 atk													
+													
+													
+verme gigante		inseto mutante		SKILL:  atacar +7atk element : terra									
+ATK	DEF	CON	HP/PV	GOLPES	esquivar 2v								
+2D	2D	2D	120	ataque(+23 atk por 1dd01v									
+obs pele resistente +3def, presas +5 atk													
+													
+													
+Demonio de mil olhos		demonio		SKILL:  previsao de golpes +7def element : fogo									
+ATK	DEF	CON	HP/PV	GOLPES	esquivar 2v								
+2D	2D	2D	120	atacar (+14 atk +4dano por 2d6 rod)1v									
+obs garras+5 atk													
+													
+													
+Classe C	veteranos												
+Nessa classe as criatras sao mais independentes, demonstram mais capacidade mental, são mais racionais e por isso mais perigosas, boa parte deles são bem espertos outros sao criaturas selvagens que gostam de fazer jorrar sangue.													
+													
+super largato humanoide		besta		SKILL:  força +5atk/def element : nivel 2 terra									
+ATK	DEF	CON	HP/PV	GOLPES	ataque (+20 atk) 3v, força(+14 atk por 2d6)1v								
+3D	3D	3D	140	atacar (+21 atk)1v									
+obs pele resistete +9 def, garras +10 atk													
+													
+													
+Angus		besta		SKILL:  força +5atk/def element : nivel 2 terra									
+ATK	DEF	CON	HP/PV	GOLPES	ataque tempestade de areia(+21atk e-8atk ini por 1d6)2v								
+3D	3D	3D	140										
+obs pele resistete +12 def, garras +11 atk													
+													
+													
+Fera selvagem		besta		SKILL: element extra raio  element : nivel 2 terra									
+ATK	DEF	CON	HP/PV	GOLPES	raios(+15 atk e +8dano)2v								
+3D	3D	3D	140	ataque de guarras(+11 atk)1v; ataque feroz(+16atk, 8dano; -8atk inimigo por 1d6)1v									
+obs.: corpo +4DEF, garras +11atk													
+													
+													
+Corvo humanoide		besta		SKILL: velocidade +5atk/def  element : nivel 2 ar									
+ATK	DEF	CON	HP/PV	GOLPES	raios(+15 atk e +8dano)2vataque rapido(+20atk)2v; esquiva 2v;								
+3D	3D	3D	140	guarras(+23atk); golpear(+21atk)1v									
+obs.: corpo +4DEF, garras +11atk													
+													
+													
+Minotaurus furioso		besta+guerreiro		SKILL: forca+5atk/def  element : nivel 2 fogo									
+ATK	DEF	CON	HP/PV	GOLPES	golpear (+16atk);forca arrazadora(+29 atk por 2d6)1v;								
+3D	3D	3D	140	atacar(+16 atk, +8dano)1v									
+obs.: DEF total - armadura completa +14def; machad de fio duplo - +6 atk capacete +3def; def= +17; atk = +6													
+													
+													
+Leão humanoide		besta		SKILL: setidos aguçados  element : nivel 2 terra									
+ATK	DEF	CON	HP/PV	GOLPES	morder(+10 atk)1v; defender(+15 def)2v; esquiva 3v;								
+3D	3D	3D	140	atacar(+18 atk, -8 atk inimig. por 1d6 rod)1v									
+obs.: garras +12atk													
+													
+													
+cavalo marinho humanoid		besta(** +7atk/def assassina)		SKILL: element extra raio  element : agua nv 2									
+ATK	DEF	CON	HP/PV	GOLPES	defesa de agua(+24def por 3d5 rod)1v								
+3D	3D	3D	140	ataque eletrico(+21 atk, +8 dano)1v; ataque(+20 atk)1v									
+obs.: alabarda tridente duplo+pele resistente; atk=+13, def +10													
+													
+													
+Crocodilo de espada		besta-cavaleiro **		SKILL: força +5atk/def  element : nivel 2 raio									
+ATK	DEF	CON	HP/PV	GOLPES	esquiva1v; ataque rasgante(+11atk +8dano)1v; defesa(+18def)1v								
+3D	3D	3D	140	defesa (+18 def)1v; ataque poderoso(+26 atk +8 dano por 1d6)1v									
+obs.: armadura especial + claymore+ capacete; def=+16, atk=+8													
+													
+													
+Cavaleiro sem cabeça 1		fatasma- cavaleiro ** 		SKILL: anti-magia  element : nivel 2 terra									
+ATK	DEF	CON	HP/PV	GOLPES	esquiva 2v; ataque superior(+21 atk +8dano por 3d6)1v								
+3D	3D	3D	140	ataque(+19atk, -8atk inimigo)1v, ataque 2(+20atk -8atk inimigo)1v									
+obs.: armadura completa + espada reta de fio duplo; atk +5, def +17													
+													
+													
+Cavaleiro sem cabeça 2		fantasma-cavaleiro-assassino ***		SKILL: anti-magia  element : nivel 2 trovao									
+ATK	DEF	CON	HP/PV	GOLPES	esquiva 2v; ataque superior(+21 +8 por3d6)1v								
+3D	3D	3D	140	ataque de espada(+21atk)1v									
+obs.: aramdura espcial + escudo de guerra + espada larga;atk =+7, def =+ 20  * resistencia a proteção total													
+													
+													
+impachi - o espirito das arvores		fantasma 		SKILL: resistencia a element  element : nivel 2 terra									
+ATK	DEF	CON	HP/PV	GOLPES	atacar(+21atk)3v; defender(+19 def)3v								
+3D	3D	3D	140	chutar(+20 atk)3v									
+obs.: reistencia +4 def													
+													
+-Um conjunto de arvores empilhadas na forma de um humonoide gigante, possudas por um espirito maligno													
+													
+Impachi de fogo		fantasma- assassino * +7atk/def		SKILL: element extra terra element : nivel 2 fogo									
+ATK	DEF	CON	HP/PV	GOLPES	ataque eme chamas(+21 atk, +8dano,-8atk inimigo por 6d6 rod)1v								
+3D	3D	3D	140										
+obs.: resisencia +4 def													
+													
+													
+Espirito das chamas malignas		fantasma- assassino * +7atk/def		SKILL: resistencia a magia element : nivel 2 fogo									
+ATK	DEF	CON	HP/PV	GOLPES	ataque de fogo(+20 atk, +8dano)3v								
+3D	3D	3D	140	esquiva 3v; atacar(+19 atk)1v									
+obs.: resisencia +3 def													
+													
+													
+Terra - o grande ogro		"ogro-guerreiro-assassino" +7 ATK/DEF											
+ATK	DEF	CON	HP/PV										
+3D	3D	3D	140										
+Skill:	corpo +5 atk/def												
+Element:	nv 2 Terra												
+Golpe:		Ataque forte(+21ATK)2v											
+		Golpear(21atk, -8 atk inimigo)1v											
+		Esquiva 2v											
+		Bater(+25 atk,-8 atk inim.)1v											
+OBS: 	braceletes e caneleiras + capacete + LUVA DE COMBATE; ATK =+3 , DEF =+8												
+													
+													
+													
+Terra - o grande ogro		"ogro-guerreiro-assassino" +7 ATK/DEF											
+ATK	DEF	CON	HP/PV										
+3D	3D	3D	140										
+Skill:	corpo +5 atk/def												
+Element:	nv 2 Terra												
+Golpe:		Ataque forte(+21ATK)2v											
+		Golpear(21atk, -8 atk inimigo)1v											
+		Esquiva 2v											
+		Bater(+25 atk,-8 atk inim.)1v											
+OBS: 	braceletes e caneleiras + capacete + LUVA DE COMBATE; ATK =+3 , DEF =+8												
+													
+													
+													
+Ghoul combatente		Zumbi - guerreiro *											
+ATK	DEF	CON	HP/PV										
+3D	3D	3D	140										
+Skill:	corpo +5 atk/def												
+Element:	nv 2 fogo												
+Golpe:		Ataque forte(+20ATK por 3D6 rod)1v											
+		Ataque super forte(+26 ATK, +8 dano por 2D6 rod)1v											
+													
+													
+OBS: 	Armadura completa + capacete+ luva de combate; atk =+1 , def =+15												
+													
+													
+													
+Besta verminosa		besta - demonio											
+ATK	DEF	CON	HP/PV										
+3D	3D	3D	140										
+Skill:	drenar hp = 70												
+Element:	nv 2 Terra												
+Golpe:		atacar (+20 atk, -8 atk inimig. por 4d6 rod)1v											
+		golpear(+19 atk)1v											
+		defender(+16 def)2v											
+													
+OBS: 	corpo + 10 def, +3atk												
+													
+													
+													
+titan do terror		besta - guerreiro*-assassino **+7											
+ATK	DEF	CON	HP/PV										
+3D	3D	3D	140										
+Skill:	forca +5												
+Element:	nv 2 fogo												
+Golpe:		grande ataque(+26 atk, +8dano por 4d6 rod)1v											
+		golpe de fogo(+28 atk)1v											
+													
+													
+OBS: 	luva de combate + armadura simples, atk=+ 3, def =+7												
+													
+													
+													
+Soldado de pedra		fantasma-cavaleiro ***											
+ATK	DEF	CON	HP/PV										
+3D	3D	3D	140										
+Skill:	forca +5												
+Element:	nv 2 terra												
+Golpe:		ataque de espada(+25,-8 atk inim. por 6d6)1v											
+													
+													
+													
+OBS: 	aramdura especial+escudo de guerra+espada larga; atk=+7, def =+20												
+													
+													
+													
+Barão demonio		demonio-assassino											
+ATK	DEF	CON	HP/PV										
+3D	3D	3D	140										
+Skill:	forca +5												
+Element:	nv 2 fogo												
+Golpe:		grande ataque(+25 atk, +8dano por 2d6 rod)1v											
+		ataque de espada(+34 atk por 1d6)1v											
+													
+													
+OBS: 	Espada de demonios* - atk +0 def +7(espada bastarda)												
+	a espada confere +8 ao atk e a def; atk =+18,def=+15												
+													
+													
+Feiticeiro aquatico		demonio-mago											
+ATK	DEF	CON	HP/PV										
+3D	3D	3D	140										
+Skill:	teleporte												
+Element:	nv 2 agua												
+Golpe:		confusão dos elementos 1v											
+		energia secreta1v											
+		feitiço das sombras 1v											
+		rajada de agua(20 atk, +4dano,-8atk inim)1v											
+		defesa (+16 def por 1d6)1v											
+		4 magias não permanentes											
+		regeneração nv 1											
+OBS: 	mascara+corcelete com armadura+punhal; atk =+6, def =+13												
+													
+													
+													
+Bruxa monstro		monstro-mago											
+ATK	DEF	CON	HP/PV										
+3D	3D	3D	140										
+Skill:	elemen extra : raio ; 												
+Element:	nv 2 fogo												
+Golpe:		energia secreta 1v											
+		feitico as sombras1v											
+		ataque de raios (+16 def por 1d6)1v											
+		ataque(+21 atk por 1d6)1v											
+		regeneração niv 1											
+		+3 magias nao permanentes											
+OBS: 	armadura com coecelete + punhal  atk=+6, def =+10												
+													
+													
+													
+Ghoul feiticeiro condenado		zumbi-mago-assassino											
+ATK	DEF	CON	HP/PV										
+3D	3D	3D	140										
+Skill:	detecta magia												
+Element:	nv 2 fogo												
+Golpe:		energia secreta1v											
+		confusão dos elementos1v											
+		feitiço das sobras1v											
+		ataque com arma(+19 atk)1v											
+		ataque com fogo(+21 atk, +8dano por 1d6)1v											
+		+7 magias não permanente											
+		regeneração niv 1											
+OBS: 	armadura especial + casaco; atk=+14 , def =+12												
+													
+													
+observacoes	hordas & agrupamentos												
+	pode ocorrer em alguma situaçoes de ter a necessidade de enfrentar inimigos agrupados, para efeito de jogo, esses sao chamados de hordas.												
+													
+													
+ficha de hordas nivel E													
+atk	def	con 	hp 	golpe	atacar(+11 atk por 2d6)1v								
+1d	1d	1d	100										
+													
+OBS.: armas variadas, para padronizar coloca-se atk=+15 e def=+18													
+- hordas desse nivel coloca-se por exemplo um grupo de humanos comuns armados para um combate; diabretes fazem parte dessa categoria tambem;													
+													
+													
+													
+													
+ficha de hordas nivel E	nivel D												
+atk	def	con 	hp 	golpe	defesas(+14def)2v	esquiva1v	ataque(+16 atk por 1d6 rod)1v						
+2D	2D	2D	120										
+													
+OBS.: armas variadas, atk=+15 e def=+18													
+- As hordas geralmente são desorganizadas, quando estão em grupo o poder de ataque individual é suprimido, assim como a defesa;													
+-Nesse nivel encaixa-se, grupamentos de servos de vampiro e lobisomen, de esqueletos e zumbis;													
+-A tropa especial do rei tambem se encaixa aqui.													
+													
+													
+ficha de hordas nivel E	nivel C												
+atk	def	con 	hp 	golpe	atacar(+21 atk por 3d6 rod)1v	esquiva2v	atacar(+21 atk por 1d6 rod)1v		defesa(+20def)1v				
+3D	3D	3D	140										
+													
+-Armas variadas; atk=+15 e def =+18													
+-Nessa categoria encaixa-se somente o exercito de goblins													
+													
+													
+ficha de hordas nivel E	nivel B												
+atk	def	con 	hp 	golpe	atacar(+26 atk por 5d6 rod)1v	esquiva2v	atacar(+25 atk por 1d6 rod)1v		defesas(+25 def por 1d6)1v				
+4D	4D	4D	160										
+													
+-Armas variadas; atk=+15 e def =+18													
+-Nessa categoria encaixa-se somente a "tropa de monstros gragonoides"													
+													
+													
+													
+Bestiario parte II													
+													
+Classe B													
+-Nessa categoria as criaturas são extremamente fortes, superam em termos de poder muitos herois; costumam ser mandantes de ataques e estrategias perigosas para vidas humanas; os conhecimentos por traz desses seres é misteriosos, a mera presença desses seres é nociava a vidas humanas.													
+													
+													
+Cavaleiro Mistico besta		besta-**cavaleiro-**assassino+7											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	força +5												
+Element:	nv 2 ar												
+Golpe:		ataque poderoso(+30 atk por 3d6)1v											
+		laminas de ar(+21 atk, -8 atk inim02v											
+		degolar(+39 atk por 1d6)1v											
+													
+													
+													
+													
+OBS: 	armadura flexivel + alabarda foice; atk+13,def=+17 +capacete												
+-meio homem e meio besta cavalo; muito temido polo seu poder													
+													
+													
+													
+Cavaleiro Lutador		demonio-*cavaleiro-**assassino+7											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	energia mistica disco+7atk/def												
+Element:	nv 2 ar												
+Golpe:		defesa(+19 def)1v											
+		ataque de energia mistica(+31atk por 3d6rod 1v)											
+		ataque combinado(+38atk)1v											
+													
+													
+													
+													
+OBS: 	armadura flexivel + capacete + mascara+ kukri duplo ; atk+13,def=+19												
+-Um demonio de face desconhecida; manifesta uma energia mistica circular ao corpo, transformando seus ataque em mortais; é um ser muito respeitado e conhecido.													
+													
+													
+espirito infernal do fogo		fantasma-**assassino+7											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	previsao de movimentos 												
+Element:	nv 2 fogo												
+Golpe:		esquiva 2v											
+		ataque em chamas(+20atk +8dano)2v											
+		corpo em chamas(+39 atk por 4D6 rod)1v											
+													
+													
+													
+													
+OBS: 	restencia +16 def; garras de chamas + 15 atk												
+-Um dos espiritos mais poderosos existentes, se não o mais poderoso, muito temido pela sua crueldade; sua forma é desconhecida, assim como sua origem, sua apareca é a de um humanoide com o corpo coberto em chamas com asas e caldas inflamadas tambem;													
+													
+													
+neo feiticieiro aquatico		demonio-*mago-***assassino +7											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	teleporte												
+Element:	nv 2 agua												
+Golpe:		confusao dos elementos 1v											
+		energia secreta 1v 											
+		feitiço das sombras 1v											
+		campo de força da escuridão 1v											
+		rajada de agua(+24 atk +4dano)1v											
+		lanças de agua(+26 atk, -8atk ini. por 1d6 rod)1v											
+		 + 8 magias não permanente											
+		regeneração nivel 2											
+OBS: 	armadura com corcelete + mascara+ punhal duplo; atk =+ 11, def =+15												
+	Um mago extremamente poderoso, vindo de clã muito conhecido pelos seus poderes relacionados a agua												
+													
+													
+Duque ogro		ogro-*guerreiro-**assassino+7											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	intagibilidade												
+Element:	nv 2 raio												
+Golpe:		garras poderosas(+25atk por 2d6)1v											
+		esquiva 2v											
+		chifres de raios(+26atk,+8dano)3v											
+		ataque intangivel*(+25 atk + 8dano, intagibilidade(anula atk ou def) por 1d6 1v)											
+													
+													
+													
+OBS: 	corpo resistente + proteção de peito + braceletes e caneleiras+garras + chifres; atk =+10, def =+14												
+- duque ogro: uma criatura muito temida no submundo, talvez a criatura mais poderosa conhecida da raça dos ogros.													
+													
+													
+O conde dos ghouls e zumbis		ghoul-***caçador-**assassino+7											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	telepatia												
+Element:	nv 2 fogo												
+Golpe:		ataque telepata(+26atk , telepatia(anula) por 2d6)1v											
+		olhos de fogo(+26 atk +8 dano)2v											
+		poder extraordinario(+25atk,+8dano,+ telepatia(anula a def) por 2d6rod)1v											
+													
+													
+													
+													
+OBS: 	corcelete de couro+braceletes e caneleiras + cimitarra dupla1+duplo revolver 2 , atk1=+ 10, def1=+17; atk2=+16,def2=+10												
+- O conde dos ghouls e zumbis: uma criatura sabia e malevola, possui a aparencia azulada com olhos amarelos e presas de vampiro, com uma roupa antiga e garras assustadoras; consegue se comunicar e controlar criaturas inferiores, é um punidor severo.													
+													
+													
+Opticlops		demonio-*guerreiro-**assassino+7											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	forca +5												
+Element:	nv 2 fogo												
+Golpe:		força destruidora (+31atk por 3d6)1v											
+		modo imbativel(+31 +8dano por 4d6 rod)1v											
+													
+													
+obs: liberação de poder -1* = +10 em atk e def													
+obs2: capacete + luva de combate +braceletes e caneleiras + protecao de peito atk=+ 3 def=+9													
+													
+- Um ser gigantesco, maior que o ciclop zumbi, possui uma forca tremenda um demonio muito independente e solitario, poucos sao capazes de subjugalo, um ser que vive pela batalha													
+													
+O cavaleiro de ferro		montro-***cavaleiro-**assassino+7											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	element extra ar												
+Element:	nivel 2 terra												
+Golpe:		modo cavaleiro de ferro (+42 atk , +42 def, por 6d6 rod)1v											
+													
+													
+obs: armadura flexivel + escudo em triangulo + capacete+mascara + espada bastarda; atk =+13 def=+21													
+													
+													
+													
+- Um montro de face desconhecida que cobre o rosto com um capacete e uma mascara, apenas seus olhos vermelhos sap lembrados; um cavaleiro lendario ate para os humanos, um oponente de poder gigantesco.													
+													
+													
+Gustahar -  o guerreiro do caos			montro- ***guerreiro- assassino										
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	armas leves												
+Element:	nivel 2 ar												
+Golpe:		esquiva 2v											
+		ataque de espada (+26 atk)3v											
+		apunhalar com laminas de ar(+31 atk , -8atk inim, por 3d6 rod)1v											
+													
+obs: armadura flexivel + falcione 1+ mascara de metal + adaga-falcione 2; atk1=+12 def1=+18 ; atk2=+16 def2 =+20 													
+obs2: liberação de poder -1* =+ 10 em atk e def													
+													
+- Um montro eximio na habilidade com a espada, ja foi um soldado muito honrado no passado, mas agora é um guerreiro poderoso com objetivos misteriosos.													
+													
+mefist - soldado da morte		demonio-**cavaleiro-**assssino											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	element extra raio nivel 2												
+Element:	nivel 2 fogo												
+Golpe:		ataque mortal(+26 atk, +16 dano)4v											
+		defesa(+23def por 1d6 rod)1v											
+		machado mortifero(+33 atk, +8 dano por 1d6)1v											
+													
+obs: armadura completa +  capacete + mascara + alabarda machado; atk=+11 def=+22  *montaria													
+- Portador de uma armadura assustadora, é o senhor das hordas, no caso de batalha é um assassino perigoso, muito temido entre os demonios.													
+													
+													
+													
+Assassino das trevas		demonio-*** caçador-**assasssino+7											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	invisivbilidade												
+Element:	nivel 2 ar												
+Golpe:		movimentos rapidos (+34 atk por 2d6)1v											
+		esquiva 2v											
+		modo predador(+26atk,+8 dano; invisibilidade(anula atk/def) por 2d6)1v											
+		ataque furtivo(+26 atk)1v											
+													
+obsÇ:armadura com corcelete + taichi dupla1 + kodachi dupla2 + pistola hell II 3; atk=+13 def=+16, atk=+19 def=+17,atk=+19 def=+15													
+*arte marcial ; liberação de poder-1 + 10 atk e def													
+-Armado com muitos equeipamentos e arma, é um demonio psicotico com aparencia de esqueleto, possui grandes habilidades de luta, e é capaz de atrocidades incriveis.													
+													
+Demonio espelho													
+- criatura de origem misteriosa; possui a capacidade de atraves da imagem do espelho trazer no plano uma criatura de ate nivel 4, para cada pessoa em frente ao espelho, podendo ser qualquer um, inclusive um heroi ou aventureiro, somente apos a derrota da imagem produzida que o 'demono espelho' é destruido.													
+													
+													
+Ilusionista das trevas		demonio - **mago-***assassino +7 atk/def											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	comunicação em sonhos												
+Element:	nivel 2 raio												
+Golpe:		feitiço das sombras 1v											
+		confusão dos elementos 1v											
+		realampago negro das trevas(+25 atk, +12 dano, por 3d6 rod)1v											
+		ataque poderoso(+21atk, +8dano por 1d6)1v											
+		regeneração nivel 1											
+obs: +8 magias nao permanentes													
+obs2: aramadura com corcelete + cajado ; atk=+16 def=+15													
+- Um demonio de aparencia azulada e roupas vermelhas de visual estravagante, possui um cajado e um par de chifres, possui tambem uma capa; é um demonio muito astuto em seus planos, suas verdadeiras intencoes sao um misterio.													
+													
+Cavaleiro do mar		monstro-***guardiao-**assassino+7											
+ATK	DEF	CON	HP/PV										
+4D	4D	4D	160										
+Skill:	canalizador												
+Element:	nivel 2 agua												
+Golpe:		circulo de anulação 1v											
+		jarro magico 1v											
+		trovão de luz 1v											
+		poção de agua mistica dos goblins 1v											
+		esfera de energia de fogo 1v											
+		torrente de agua(+26atk, +8dano por 1d6)1v											
+		lâmina de ar(+22atk)1v											
+obs: adicional - encantar arma +9atk/def  + 10 magias nao permanentes													
+obs2: armadura com corcelte + capacete + mascara + alabarda - machado atk=+16 def=+20 													
+obs3: *artes marciais; liberação de poder-1*; +10 atk/def													
+- Um monstro de aparencia azulada com pele escamada e olhos vermelhos, sua aramdura é azul com vermelho, a armadura é cheia de detalhes e formar que elmbram um ouriço do mar ou um cavalo marinhio; é muito poderoso e respeitado, muito agressivo e vingativo													
+													
+OBSERVAÇÔES DAS CRIATURAS													
+													
+Existem muitos tipos de criaturas													
+													
+*Demonios	costumam ter aparencia variada, assim como as outras racas, quanto mais proximo da aparencia humana, mais poderosa a criatura é, no caso dos a demonios a aparencia humanoide vermelha com pequenos par de chifres caracteriza os demonios mais fracos vindos da classe diabretes; possui como principal caracteristica a capacidade de se modificar a aparencia, para se parecer"magicamente" com um ser humano fora um skill proprio.												
+													
+*Monstro	possui uma aparencia semelhante a uma besta porem a aparencia e personalidade mais sombria, conseguem se transformar a aparencia humana assim como os demonios, alguns misticos antigos acreditam que os 'monstros' são uma especie de miscigenação entre demonios e bestas, sao muitos espertos , mais até que os demonios as vezes.												
+													
+bestas	possuem a aparencia semelhante a de animais selvagens, normalmente possuem uma resistencia propria contra ataques, não podem mudar sua aparencia e seu nivel der inteligencia é reduzida, poucos são espertos, são muitos simplorios e agressivos.												
+													
+goblins	são de estatura baixa, sao agressivos e maleficos, costumam trabalhar sempre em grupo, não são muito inteligentes. não tem muito conhecimento sobre essa sociedade.												
+													
+obro	são parecidos com os goblins, porem não sao necessariamente verdes e pequenos, pelo contrario são por volta de 2m de altura e muito fortes e perigosos.												
+													
+mutantes	são criaturas parecidas com bestas, formas animalescas super desenvolvidas, mas nao se sabe ao certo a origem dessas criaturas, possuem uma inteligencia simploria como as bestas.												
+													
+fantasmas	sao uma raça peculiar, o que se sabe é que são uma manifestação de energia mistica espiritual avancada que se manifesta em forma humanoide e praticamente solida ou em possessao de um corpo de varias formas, alguns misticos teorizao sobre ser o resultado de uma magia secreta, esse efeito.												
+													
+lobisomens	sao uma raca de origem desconhecida são como bestas em formas de lobos humanoides, possuem fraquesas, mas essas não afetam os servos, agem normalmente nas noites de lua cheia.												
+													
+vampiros	 sao uma especie de morto vivo especial sao parecidos com ghols, porem mais espertos e autonomos, sua origem é desconhecia tambem , possuem fraquesas assim como os lobisomens, mas não afetam os servos.												
+													
+* 1 skil nivel 2													
+Assim como o "elemental nível 2" o Skill também possui, o personagem se desenvolveu muito durante sua jornada, e após um treinamento equivalente a de um golpe especial ele, o skill, recebe um novo valor.													
+													
+no nivel 1 do skill o valor integral é de "7", os medianos "5", a quebra gira em torno de "5" para todos.													
+													
+no nivel "2" do skill recebem o valor de 10, tanto na soma permanente , quanto na quebra para golpes especiais;													
+													
+o nivel 2 só é alcancado no nivel "sabio" que equivale ao "nivel 5"													
+													
+o skill ofensivo e defensivo recebe o valor de 12 no seu respectivo atk ou def.													
+													
+*observação  dos skills.													
+mestre elemental		Esse personagem possui uma habilidade Rara, ele, manipula de forma super eficaz o seu elemental, condições temporais que implicam sobre o personagem não surtem efeito, por exemplo, se o personagem em mestre elemental da água, não surtirá efeito nele a condição de afogamento, ou se for do fogo não terá queimaduras no incêndio; esse poder é muitoabstrato e por isso nao é disponivel para jogadores.											
+		em termos de combate o valor do elementeal passa de 8 para 12											
+		é possivel escoolher um efeito especial para essa habilidade, que nao pode ser mudade depois											
+		criar golpes especiais que rebatem golpes especiais ou magia; somasse somente ao "contra ataque"											
+		sempre que for atingido por um golpe especial elemental, respectivo ao proprio elemental, o personagem absorve a energia, ganhando + 15 de hp por cada golpe recebido, defendido e esquivado; o valor do elemental é retirado do golpe e ganha-se os +15, o resto do valor é calculado normamalemente.											
+		o personagem pode dissipar golpes especiais elementais, é parecido com o absorver, porem o personagem dissipa o ataque completamente no "contra ataque", magias ficam sob influencia do mesmo poder, assim como a "absorçao" e o "rebater"											
+	obs:	rebater :	O golpe é criado, caso seja de qualquer elemento que não o do personagem a energia é rebatida pela metade e somado ao contra-ataque do portador, Caso seja do próprio elemental é rebatido e somado por completo o valor integral utilizado para magia também.										
+		absover e dissipar:											
+													
+													
+													
+													
+													
+													

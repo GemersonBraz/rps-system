@@ -13,20 +13,20 @@ export function ThemeProvider({ children }) {
         document.documentElement.setAttribute('data-theme', theme);
         localStorage.setItem('rpg-theme', theme);
 
-        // Opcional: Adiciona classe 'dark' para compatibilidade com Tailwind Dark Mode
-        if (theme === 'sombra') {
+        // Lógica para compatibilidade com Tailwind Dark Mode (class="dark")
+        // Se o tema for escuro (sombra, caos, arcano), adiciona a classe dark
+        const darkThemes = ['sombra', 'caos', 'arcano'];
+        if (darkThemes.includes(theme)) {
             document.documentElement.classList.add('dark');
         } else {
             document.documentElement.classList.remove('dark');
         }
     }, [theme]);
 
-    const toggleTheme = () => {
-        setTheme(prev => prev === 'honra' ? 'sombra' : 'honra');
-    };
+    // toggleTheme foi removido pois agora usamos um seletor múltiplo (setTheme direto)
 
     return (
-        <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
+        <ThemeContext.Provider value={{ theme, setTheme }}>
             {children}
         </ThemeContext.Provider>
     );

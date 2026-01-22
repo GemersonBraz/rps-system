@@ -18,11 +18,12 @@ import {
     GiCog,            // System/Maintenance
     GiHourglass,      // Coming Soon
     GiSave,           // Backup
-    GiSkullMask       // Error
+    GiSkullMask,      // Error / Sombra
+    GiVisoredHelm     // Capacete
 } from 'react-icons/gi';
 
 // Centralized Icon Registry
-// Use these constants throughout the app to ensure consistency.
+// Usando apenas ícones 100% seguros que já vimos funcionar.
 export const ICONS = {
     // Actions
     CLOSE: GiCancel,
@@ -30,10 +31,26 @@ export const ICONS = {
     EDIT: GiQuill,
     DELETE: GiTrashCan,
 
-    // Auth
+    // Auth & Profile
     LOGIN: GiEntryDoor,
     LOGOUT: GiExitDoor,
     REGISTER: GiNewBorn,
+    HELMET: GiVisoredHelm,
+
+    // Classes / Roles
+    WIZARD: GiMagicPotion, // Fallback
+    ROGUE: GiBroadsword,    // Fallback
+    WARRIOR: GiVisoredHelm,
+    BARBARIAN: GiBroadsword,
+    ELF: GiScrollUnfurled,
+
+    // Monsters
+    GOBLIN: GiSkullMask,
+    ORC: GiSkullMask,
+    DRAGON: GiSkullMask,
+    SKELETON: GiSkullMask,
+    WOLF: GiSkullMask,
+    SPIDER: GiSkullMask,
 
     // RPG Elements
     ATTACK: GiBroadsword,
@@ -55,9 +72,35 @@ export const ICONS = {
 
     // Navigation
     HOME: GiVillage,
+
+    // Admin / CRUD
+    DATABASE: GiStoneTower,
+    TABLE: GiScrollUnfurled,
+    ADD: GiNewBorn,
+    FILTER: GiCog,
+    SEARCH: GiHourglass,
+    BOOK: GiScrollUnfurled,
+    BACKPACK: GiGoldBar,
+    ARMOR: GiCheckedShield,
+    MAP: GiVillage,
+    CRYSTAL_BALL: GiMagicPotion,
+    FIRE_RING: GiMagicPotion,
+    HISTORY: GiHourglass, // Fallback para HISTORY
+    IMAGE: GiScrollUnfurled,
+
+    // Combat & States (Fallbacks Seguros)
+    SWORDS: GiBroadsword,
+    BROKEN_SHIELD: GiCheckedShield,
+    CHEST: GiGoldBar,
+    DUMMY: GiStoneTower,
+    POISON: GiSkullMask,
+    BASH: GiBroadsword,
+    COINS: GiGoldBar,
+    HEART_BROKEN: GiHealthPotion,
+    FATAL: GiSkullMask,
 };
 
-// Helper array for iterating over all icons (good for style guides)
+// Helper array for iterating over all icons
 export const ICON_LIST = Object.entries(ICONS).map(([key, IconComponent]) => ({
     name: key,
     Icon: IconComponent
